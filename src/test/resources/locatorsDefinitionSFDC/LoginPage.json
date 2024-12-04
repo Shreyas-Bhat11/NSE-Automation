@@ -1,0 +1,17 @@
+{
+	"UserName": {
+		"web": {
+			"xpath": "//input[@id='username']"
+		}
+	},
+	"Password": {
+		"web": {
+			"xpath": "//input[@id='password']"
+		}
+	},
+	"LoginButton": {
+		"web": {
+			"xpath": "//input[@id='Login']"
+		}
+	}
+}

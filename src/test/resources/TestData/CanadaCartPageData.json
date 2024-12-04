@@ -1,0 +1,25 @@
+{
+	"CART_HEADING_EN": "Cart, QUANTITY item(s)",
+	"RESULTS_PER_PAGE_EN": "Results per page:\n5",
+	"DEFAULT_PAGINATION_EN": "5",
+	"ORDER_SUMMARY_HEADING_EN": "Order summary",
+	"ORDER_SUMMARY_EST_HEADING_EN": "Est. subtotal (CAD)",
+	"ORDER_SUMMARY_TEXT_EN": "*Subtotal does not include shipping or tax.",
+	"CHECKOUT_BUTTON_EN": "Checkout",
+	"PROMO_CODE_HEADING_EN": "Have a promo code?",
+	"PROMO_CODE_INPUT_HEADING_EN": "Promo code (Optional)",
+	"PROMO_CODE_ERROR_MESSAGE_EN": "Coupon code is invalid. Please verify the code and try again.",
+	"PROMO_APPLIED_EN": "Promo code applied",
+	"PROMO_10_OFF_EN":"10OFF - 10% OFF",
+	
+	"CART_HEADING_FR": "Panier, QUANTITY article(s)",
+	"RESULTS_PER_PAGE_FR": "Résultats par page:\n5",
+	"DEFAULT_PAGINATION_FR": "5",
+	"ORDER_SUMMARY_HEADING_FR": "Récapitulatif de la commande",
+	"ORDER_SUMMARY_EST_HEADING_FR": "Sous-total (est) (CAD)",
+	"ORDER_SUMMARY_TEXT_FR": "*Le sous-total n'inclut pas les frais d'expédition ni les taxe.",
+	"CHECKOUT_BUTTON_FR": "Vérifier",
+	"PROMO_CODE_HEADING_FR": "Avez vous un code de réduction?",
+	"PROMO_CODE_INPUT_HEADING_FR": "Code promotionnel (Facultatif)",
+	"PROMO_CODE_ERROR_MESSAGE_FR": "Le code promo n’est pas valide. Vérifiez le code et réessayez."
+}

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="false" verbose="10"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="com.tr.commons.extentListeners.ExtentListeners" />
+	</listeners>
+	<test
+		name="TC001_E2E_USL_WLEdge_LawFirm_GoodPlan_Addons_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC001_E2E_USL_WLEdge_LawFirm_GoodPlan_Addons_AmexCard"
+			/>
+		</classes>
+	</test>
+	<test
+		name="TC002_E2E_USL_WLEdge_LawFirm_BetterPlan_Add2AddOns_Remove1AddOn_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC002_E2E_USL_WLEdge_LawFirm_BetterPlan_Add2AddOns_Remove1AddOn_BankAccount"
+			/>
+		</classes>
+	</test>
+	<test
+		name="TC003_E2E_USL_Active_Trial_WLEdge_LawFirm_BestPlan_with_addOn_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC003_E2E_USL_Active_Trial_WLEdge_LawFirm_BestPlan_with_addOn_AmexCard" />
+		</classes>
+	</test>
+	<test
+		name="TC004_E2E_USL_PL_GeneralCounsel_BetterPlan_GoToCheckout_ExistingCustomer_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC004_E2E_USL_PL_GeneralCounsel_BetterPlan_GoToCheckout_ExistingCustomer"
+			/>
+		</classes>
+	</test>
+	<test
+		name="TC005_E2E_USL_WL_Classic_General_Counsel_BetterPlan_without_addOn_Discover_card">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC005_E2E_USL_WL_Classic_General_Counsel_BetterPlan_without_addOn_Discover_card" />
+		</classes>
+	</test>
+	<test
+		name="TC006_E2E_USL_PL_GeneralCounsel_BetterPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC006_E2E_USL_PL_GeneralCounsel_BetterPlan_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC007_E2E_USL_WLClassic_GeneralCounsel_GoodPlan_Without_addOn_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC007_E2E_USL_WLClassic_GeneralCounsel_GoodPlan_Without_addOn_BankAccount" />
+		</classes>
+	</test>
+	<!-- ADD ERIC'S CODE -->
+	<test
+		name="TC010_E2E_USL_WLEdge_Government_GoodPlan_Alabama_NoAddOn_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC010_E2E_USL_WLEdge_Government_GoodPlan_Alabama_NoAddOn_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC011_E2E_USL_WLEdge_GovernmentBetterPlan_Wyoming_State_AddAddOns_InPPPpage_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC011_E2E_USL_WLEdge_GovernmentBetterPlan_Wyoming_State_AddAddOns_InPPPpage_AmexCard" />
+		</classes>
+	</test>
+	<!-- BLOCKER <test
+	name="TC013_Page_validations_CheckoutPage_Enter_your_Information_Section_UI_Validations">
+		<classes>
+			<class
+	name="com.NSE.ui.testcases.TC013_Page_validations_CheckoutPage_Enter_your_Information_Section"
+	/>
+		</classes>
+	</test>-->
+	<test
+		name="TC014_Page_Validations_CheckoutPage_Payment_Section_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC014_Page_Validations_CheckoutPage_Payment_Section" />
+		</classes>
+	</test>
+	<!--ADD TEST CASE 15-->
+	<test
+		name="TC016_Additional_USL_PPPPage_Validate_RemovalOfAddOn_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC016_Additional_USL_PPP_page_Validate_removal_of_add_on_feature" />
+		</classes>
+	</test>
+	<test
+		name="TC017_Additional_USL_PPPpage_Validate_YoY_Saving_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC017_Additional_USL_PPPpage_Validate_YoY_Saving" />
+		</classes>
+	</test>
+	<test
+		name="TC018_E2E_USL_PL_GeneralCounsel_GoodPlan_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC018_E2E_USL_PL_GeneralCounsel_GoodPlan_AmexCard" />
+		</classes>
+	</test>
+	<test
+		name="TC020_E2E_USL_PL_Law_Firm_Good_Plan_Visa_Card_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC020_E2E_USL_PL_Law_Firm_Good_Plan_Visa_Card" />
+		</classes>
+	</test>
+	<test
+		name="TC021_E2E_USL_WLClassicLawFirm_BestPlan_AddAndRemoveAllAddOns_VisaCard_ExistingCustomerMultipleSAPAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC021_E2E_USL_WLClassicLawFirm_BestPlan_AddAndRemoveAllAddOns_VisaCard_ExistingCustomerMultipleSAPAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC023_Additional_USL_Navigat_WLEdge_Classic_and_viseversa_From_PPPage_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC023_Additional_USL_Navigat_WLEdge_Classic_and_viseversa_From_PPPage" />
+		</classes>
+	</test>
+	<!-- ADD TC 27 -->
+	<test
+		name="TC034_E2E_USL_PL_Government_GoodPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC034_E2E_USL_PL_Government_GoodPlan_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC035_E2E_USL_PL_Government_BetterPlan_VisaCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC035_E2E_USL_PL_Government_BetterPlan_VisaCard" />
+		</classes>
+	</test>
+	<test
+		name="TC037_E2E_USL_PL_LawFirm_BetterPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC037_E2E_USL_PL_LawFirm_BetterPlan_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC038_E2E_USL_PL_LawFirm_BestPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC038_E2E_USL_PL_LawFirm_BestPlan_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC039_E2E_USL_WLEdge_Government_Arizona_BestPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC039_E2E_USL_WLEdge_Government_Arizona_BestPlan_BankAccount" />
+		</classes>
+	</test>
+	<!-- ADD TC 42, 51, 52-->
+	<test
+		name="TC043_E2E_CanadaEstore_EnglishSite_Search2Words_WithPromoCode_VISACard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC043_E2E_CanadaEstore_EnglishSite_Search2Words_WithPromoCode_VISACard" />
+		</classes>
+	</test>
+	<test
+		name="TC045_E2E_CanadaEstore_EnglishSite_SearchSingleWords_WithPromoCode_VISACard">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC045_E2E_CanadaEstore_EnglishSite_SearchSingleWords_WithPromoCode_VISACard" />
+		</classes>
+	</test>
+	<test
+		name="TC046_E2E_CanadaEstore_EnglishSite_ShopNow_AmexCard">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC046_E2E_CanadaEstore_EnglishSite_ShopNow_AmexCard" />
+		</classes>
+	</test>
+	<test
+		name="TC053_CanadaEstore_EnglishSite_HomePage_PPP_PDPPageValidation_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC053_CanadaEstore_EnglishSite_HomePage_PPP_PDPPageValidation" />
+		</classes>
+	</test>
+	<test
+		name="TC054_CanadaEstore_FrenchSite_HomePage_PPP_PDPPageValidation_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC054_CanadaEstore_FrenchSite_HomePage_PPP_PDPPageValidation" />
+		</classes>
+	</test>
+	<test
+		name="TC066_E2E_USL_WLEdge_Government_GoodPlan_New_Hampshire_AddOneAdd_On_In_PPP_BankAccount_UI_Validation">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC066_E2E_USL_WLEdge_Government_GoodPlan_New_Hampshire_AddOneAdd_On_In_PPP_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC067_E2E_USL_WLEdge_Government_GoodPlan_PuertoRico_Add2_AddOns_InPPP_VISA_Card_UI_Validation">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC067_E2E_USL_WLEdge_Government_GoodPlan_PuertoRico_Add2_AddOns_InPPP_VISA_Card" />
+		</classes>
+	</test>
+	<test
+		name="TC068_E2E_USL_WLEdge_Government_BetterPlan_NewJersey_State_Without_AddOns_BankAccount_UI_Validation">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC068_E2E_USL_WLEdge_Government_BetterPlan_Texas_State_Add1_AddOns_InPPP_Page_MasterCard" />
+		</classes>
+	</test>
+	<test
+		name="TC069_E2E_USL_WLEdge_Government_BetterPlan_Texas_State_Add1_AddOns_InPPP_Page_MasterCard_UI_Validation">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC069_E2E_USL_WLEdge_Government_BetterPlan_NewJersey_State_Without_AddOns_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC070_E2E_USL_WLEdge_LawFirm_BestPlan_Add2AddOns_With_Discover_Card_UI_Validation">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC070_E2E_USL_WLEdge_LawFirm_BestPlan_Add2AddOns_With_Discover_Card" />
+		</classes>
+	</test>
+	<test
+		name="TC083_E2E_USL_WLEdge_LawFirm_GoodPlan_Add_Addons_With_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC083_E2E_USL_WLEdge_LawFirm_GoodPlan_Add_Addons_With_AmexCard" />
+		</classes>
+	</test>
+	<test
+		name="TC084_E2E_USL_PL_GeneralCounsel_BetterPlan_MultinationalPlan_With_YesBankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC084_E2E_USL_PL_GeneralCounsel_BetterPlan_MultinationalPlan_With_YesBankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC091_E2E_USL_PL_LawFirm_BestPlan_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC091_E2E_USL_PL_LawFirm_BestPlan_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC093_E2E_CanadaEstore_EnglishSite_Search2Words_WithPromoCode_VISACard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC093_E2E_CanadaEstore_EnglishSite_Search2Words_WithPromoCode_VISACard" />
+		</classes>
+	</test>
+	<test
+		name="TC095_E2E_CanadaEstore_EnglishSite_SearchSingleWords_WithPromoCode_VISACard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC095_E2E_CanadaEstore_EnglishSite_SearchSingleWords_WithPromoCode_VISACard" />
+		</classes>
+	</test>
+	<test
+		name="TC096_E2E_CanadaEstore_EnglishSite_ShopNow_AmexCard">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC096_E2E_CanadaEstore_EnglishSite_ShopNow_AmexCard" />
+		</classes>
+	</test>
+	<test
+		name="TC107_E2E_USL_WLEdge_Government_BetterPlan_NewJerseyState_WithoutAddons_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC107_E2E_USL_WLEdge_Government_BetterPlan_NewJerseyState_WithoutAddons_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC108_E2E_USL_WLEdge_LawFirm_BestPlan_Add2AddOns_DiscoverCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC108_E2E_USL_WLEdge_LawFirm_BestPlan_Add2AddOns_DiscoverCard" />
+		</classes>
+	</test>
+	<test
+		name="TC110_GM_Verify_SortByDropDown_In_SearchPage_EN_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC110_GM_Verify_SortByDropDown_In_SearchPage_EN" />
+		</classes>
+	</test>
+
+	<test
+		name="TC111_GM_Verify_SortByDropDown_In_SearchPage_FR_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC111_GM_Verify_SortByDropDown_In_SearchPage_FR" />
+		</classes>
+	</test>
+	<test
+		name="TC112_Validate_Badge_Gen_AI_PlanAndFeature_General_Counsel_PL_Desktop_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC112_Validate_Badge_Gen_AI_PlanAndFeature_General_Counsel_PL_Desktop" />
+		</classes>
+	</test>
+	<test
+		name="TC127_CC_LawFirm_Manual_NetNewCustomer_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC127_CC_LawFirm_Manual_NetNewCustomer_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC128_CCC_LawFirm_Regular_MultipleSAP_AlreadyMigrated_CreditCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC128_CCC_LawFirm_Regular_MultipleSAP_AlreadyMigrated_CreditCard" />
+		</classes>
+	</test>
+	<test
+		name="TC131_CCC_Govt_Regular_NetNewCustomer_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC131_CCC_Govt_Regular_NetNewCustomer_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC132_CCC_GeneralCounsel_Manual_NetNewCustomer_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC132_CCC_GeneralCounsel_Manual_NetNewCustomer_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC133_CCC_Govt_Regular_MulipleSAPAccount_CreditCard_GoodEmail_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC133_CCC_Govt_Regular_MulipleSAPAccount_CreditCard_GoodEmail" />
+		</classes>
+	</test>
+	<test
+		name="TC134_CCC_Govt_Regular_SingleSAPAccountNo_AlreadyMigratedCustomer_BankAccount_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC134_CCC_Govt_Regular_SingleSAPAccountNo_AlreadyMigratedCustomer_BankAccount" />
+		</classes>
+	</test>
+	<test
+		name="TC138_CCC_Govt_Regular_NetNewCustomer_CreditCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC138_CCC_Govt_Regular_NetNewCustomer_CreditCard" />
+		</classes>
+	</test>
+</suite>

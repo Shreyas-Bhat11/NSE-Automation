@@ -1,0 +1,72 @@
+{
+	"LeadsStatus": {
+		"web": {
+			"xpath": "//h3[text()='Lead Information']//following::table//tr//td[text()='Status']//following::div[1]"
+		}
+	},
+	"OwnerName": {
+		"web": {
+			"xpath": "//h3[text()='Lead Information']//following::table//tr//td[text()='Owner']//following::div[1]/span/a[2]"
+		}
+	},
+	"Name": {
+		"web": {
+			"xpath": "//h3[text()='Lead Information']//following::table//tr//td[text()='Name']//following::div[1]"
+		}
+	},
+	"AccountName": {
+		"web": {
+			"xpath": "//h3[text()='Lead Information']//following::table//tr//td[text()='Account Name']//following::div[1]"
+		}
+	},
+	"Description": {
+		"web": {
+			"xpath": "//h3[text()='Lead Information']//following::table//tr//td[text()='Description']//following::div[1]"
+		}
+	},
+	"Email": {
+		"web": {
+			"xpath": "//h3[text()='Matched Account and Contact']//following::table//tr//td[text()='Email']//following::div[1]//a"
+		}
+	},
+	"Phone": {
+		"web": {
+			"xpath": "//h3[text()='Matched Account and Contact']//following::table//tr//td[text()='Phone']//following::div[1]"
+		}
+	},
+	"Mobile": {
+		"web": {
+			"xpath": "//h3[text()='Matched Account and Contact']//following::table//tr//td[text()='Mobile']//following::div[1]"
+		}
+	},
+	"OperatingUnit": {
+		"web": {
+			"xpath": "//h3[text()='Telesales Information']//following::table//tr//td//span[text()='Operating Unit']//following::div[1]"
+		}
+	},
+	"LineOfBusiness": {
+		"web": {
+			"xpath": "//h3[text()='Telesales Information']//following::table//tr//td//span[text()='Line of Business']//following::div[1]"
+		}
+	},
+	"FormOrganizationType": {
+		"web": {
+			"xpath": "//h3[text()='Segmentation Information']//following::table//tr//td[text()='Form Organization Type']//following::div[1]"
+		}
+	},
+	"BURegion": {
+		"web": {
+			"xpath": "//h3[text()='Segmentation Information']//following::table//tr//td[text()='BU Region']//following::div[1]"
+		}
+	},
+	"FrozenMarketCurrentYearSegmentL1": {
+		"web": {
+			"xpath": "//h3[text()='Segmentation Information']//following::table//tr//td//span[text()='Frozen Market Current Year Segment L1']//following::div[1]"
+		}
+	},
+	"HighLevelCustomerType": {
+		"web": {
+			"xpath": "//h3[text()='Telesales Information']//following::table//tr//td//span[text()='High Level Customer Type']//following::div[1]"
+		}
+	}
+}

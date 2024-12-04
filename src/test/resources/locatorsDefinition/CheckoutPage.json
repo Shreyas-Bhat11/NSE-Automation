@@ -1,0 +1,457 @@
+{
+	"CheckoutHeader": {
+		"web": {
+			"xpath": "//strong/ancestor::h1[@class='tr-BacktoHeader-title']"
+		}
+	},
+	"FirstNameTextBox": {
+		"web": {
+			"xpath": "//input[@id='firstName']"
+		}
+	},
+	"LastNameTextBox": {
+		"web": {
+			"xpath": "//input[@id='lastName']"
+		}
+	},
+	"EmailAddressTextBox": {
+		"web": {
+			"xpath": "//input[@id='businessEmailAddress']"
+		}
+	},
+	"PhoneNumberTextBox": {
+		"web": {
+			"xpath": "//input[@id='phoneNumber']"
+		}
+	},
+	"OrganizationNameTextBox": {
+		"web": {
+			"xpath": "//input[@id='organizationName']"
+		}
+	},
+	"OrganizationTypeDropdown": {
+		"web": {
+			"xpath": "//select[@id='typeOfOrganization']"
+		}
+	},
+	"OrganizationTypeDropdownOptionCount": {
+		"web": {
+			"xpath": "//select[@id='typeOfOrganization']//option"
+		}
+	},
+	"OrganizationTypeDropdownOption": {
+		"web": {
+			"xpath": "//select[@id='typeOfOrganization']//option[PLACEHOLDER]"
+		}
+	},
+	"AddressTextBox": {
+		"web": {
+			"xpath": "//input[@id='searchInput-9' or @id='searchInput-7']"
+		}
+	},
+	"ContinueToPaymentButton": {
+		"web": {
+			"xpath": "//span[text()='Continue to payment' or text()='Procéder au paiement']/parent::button"
+		}
+	},
+	"CreditCardRadioButton": {
+		"web": {
+			"xpath": "//input[@id='creditCard']/parent::label"
+		}
+	},
+	"NameOnCard": {
+		"web": {
+			"xpath": "//input[@id='CardHolderName']"
+		}
+	},
+	"CardNumber": {
+		"web": {
+			"xpath": "//input[@id='CardNumber']"
+		}
+	},
+	"SecurityCode": {
+		"web": {
+			"xpath": "//input[@id='SecurityCode']"
+		}
+	},
+	"Month": {
+		"web": {
+			"xpath": "//select[@id='selectCardMonth']"
+		}
+	},
+	"Year": {
+		"web": {
+			"xpath": "//select[@id='selectCardYear']"
+		}
+	},
+	"AuthorizeCheckbox": {
+		"web": {
+			"xpath": "//input[@id='authorizePayment']/parent::label"
+		}
+	},
+	"PlaceOrderButton": {
+		"web": {
+			"xpath": "//span[text()='Place order' or text() = 'Passer la commande']/parent::button"
+		}
+	},
+	"DisablePlaceOrderButton": {
+		"web": {
+			"xpath": "//button[@class='tr-Anchor tr-Button tr-Button--primary tr-Button--circular is-disabled']"
+		}
+	},
+	"SubTotal": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row']//span[@class='tr-Price'])[1]"
+		}
+	},
+	"EstimatedTax": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row']//span[@class='tr-Price'])[2]"
+		}
+	},
+	"EstimatedTotal": {
+		"web": {
+			"xpath": "//span[@class='tr-CheckoutOrderSummary-totalLabel']//span[@class='tr-Price']"
+		}
+	},
+	"PlanNameInCart": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewCartItem-heading tr-Typography tr-Typography--xxs tr-Typography--left']//strong"
+		}
+	},
+	"AddOnNameInCart": {
+		"web": {
+			"xpath": "//div[contains(text(),'Added features')]/p"
+		}
+	},
+	"EachAddOnNameInCart": {
+		"web": {
+			"xpath": "(//div[contains(text(),'Added features')]/p)[PLACEHOLDER]"
+		}
+	},
+	"PlanDurationInCart": {
+		"web": {
+			"xpath": "//span[contains(text(),'Subscription Term')]/following-sibling::span"
+		}
+	},
+	"AttorneyNumberInCart": {
+		"web": {
+			"xpath": "//div[contains(text(),'Number of attorneys')]/following-sibling::p"
+		}
+	},
+	"SeatNumberInCart": {
+		"web": {
+			"xpath": "//div[contains(text(),'Number of seats')]/following-sibling::p"
+		}
+	},
+	"PromoCodeButton": {
+		"web": {
+			"xpath": "//span[text()='Have a promo code?']/ancestor::button"
+		}
+	},
+	"PromoCodeTextBox": {
+		"web": {
+			"xpath": "//input[@id='promoCodeInput']"
+		}
+	},
+	"PromoCodeApplyButton": {
+		"web": {
+			"xpath": "//span[text()='Apply']/ancestor::button"
+		}
+	},
+	"AddressSuggestion": {
+		"web": {
+			"xpath": "//li[@id='searchInput-7-typeaheadItem-0' or @id='searchInput-9-typeaheadItem-0']"
+		}
+	},
+	"AddressEnteredFirstLine": {
+		"web": {
+			"xpath": "(//div[@class='tr-AddressValidation-selectedAddress']/span)[1]"
+		}
+	},
+	"AddressEnteredSecondLine": {
+		"web": {
+			"xpath": "(//div[@class='tr-AddressValidation-selectedAddress']/span)[2]"
+		}
+	},
+	"TotalCurrency": {
+		"web": {
+			"xpath": "(//span[@class='tr-CheckoutOrderSummary-totalLabel']/parent::span/span[2])[1]"
+		}
+	},
+	"SubTotalCurrency": {
+		"web": {
+			"xpath": "//span[@class='tr-CheckoutOrderSummary-currency']"
+		}
+	},
+	"BankAccountNumber": {
+		"web": {
+			"xpath": "//input[@id='accountNumber']"
+		}
+	},
+	"RoutingNumber": {
+		"web": {
+			"xpath": "//input[@id='routingNumber']"
+		}
+	},
+	"CardIframe": {
+		"web": {
+			"xpath": "//iframe[@id='CREDIT_CARD_IFRAME_ID']"
+		}
+	},
+	"FirstNameError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your first name')]"
+		}
+	},
+	"FirstNameErrorcount": {
+		"web": {
+			"xpath": "//*[contains(text(),'First name must be 36 characters or fewer')]"
+		}
+	},
+	"LastNameError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your last name')]"
+		}
+	},
+	"LastNameErrorcount": {
+		"web": {
+			"xpath": "//*[contains(text(),'Last name must be 36 characters or fewer')]"
+		}
+	},
+	"EmailError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your email')]"
+		}
+	},
+	"PhoneNumberError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your phone number')]"
+		}
+	},
+	"OrganizationError": {
+		"web": {
+			"xpath": "//div[@class='tr-Alert-content']"
+		}
+	},
+	"EmailErrorcount": {
+		"web": {
+			"xpath": "//*[contains(text(),'Email must be 241 characters or fewer')]"
+		}
+	},
+	"EmailErrorDomin": {
+		"web": {
+			"xpath": "//*[contains(text(),'This email domain is not accepted. Use a different domain or contact us at 1-888-600-0672.')]"
+		}
+	},
+	"OrganizationNameError": {
+		"web": {
+			"xpath": "//div[@class='tr-Alert-content']"
+		}
+	},
+	"OrganizationTypeError": {
+		"web": {
+			"xpath": "//div[@class='tr-Alert-content']"
+		}
+	},
+	"AddressError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Select a valid address')]"
+		}
+	},
+	"AddressErrorBanner": {
+		"web": {
+			"xpath": "//div[@class='tr-AlertBanner-textContainer']"
+		}
+	},
+	"EnterAddressManual": {
+		"web": {
+			"xpath": "//button[@class='tr-SearchInput-cantFindAddressButton']"
+		}
+	},
+	"EnterCity": {
+		"web": {
+			"xpath": "//input[@id='city']"
+		}
+	},
+	"EnterState": {
+		"web": {
+			"xpath": "//select[@id='province']"
+		}
+	},
+	"EnterZipCode": {
+		"web": {
+			"xpath": "//input[@id='postalCode']"
+		}
+	},
+	"EnterFloor": {
+		"web": {
+			"xpath": "//input[@id='addressLineOptional']"
+		}
+	},
+	"CityAddressError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your city')]"
+		}
+	},
+	"ZipCodeAddressError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your zip code')]"
+		}
+	},
+	"StateAddressError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Enter your state')]"
+		}
+	},
+	"ZipCodeAddressdigitError": {
+		"web": {
+			"xpath": "//*[contains(text(),'The zip code must be 5 or 9 digits long.')]"
+		}
+	},
+	"FloorAddressError": {
+		"web": {
+			"xpath": "//*[contains(text(),'Apt, Suite, Floor must be 255 characters or fewer.')]"
+		}
+	},
+	"EnteredAddress": {
+		"web": {
+			"xpath": "//input[@id='addressLineOne']"
+		}
+	},
+	"EnteredCity": {
+		"web": {
+			"xpath": "//input[@id='city']"
+		}
+	},
+	"EnteredState": {
+		"web": {
+			"xpath": "//select[@id='province']"
+		}
+	},
+	"EnteredZipCode": {
+		"web": {
+			"xpath": "//input[@id='postalCode']"
+		}
+	},
+	"BankAccountNumberError": {
+		"web": {
+			"xpath": "//div[contains(text(),'Enter valid account number')]"
+		}
+	},
+	"RoutingNumberError": {
+		"web": {
+			"xpath": "//div[contains(text(),'Enter valid routing number')]"
+		}
+	},
+	"EstimatedTotalCCC": {
+		"web": {
+			"xpath": "//span[@class='tr-CheckoutOrderSummary-totalLabel']//span[@class='tr-Price']"
+		}
+	},
+	"EstimatedTaxCCC": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row']//span[@class='tr-Price'])[2]"
+		}
+	},
+	"ProductNameInCart": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutCartSummary-cartListSectionCA tr-FlexGrid-row']//p[1]"
+		}
+	},
+	"ProductIconInCart": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutCartSummary-cartListSectionCA tr-FlexGrid-row']//img[@class='tr-CheckoutCartSummary-productImageCn']"
+		}
+	},
+	"ProductQuantityInCart": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutCartSummary-cartListSectionCA tr-FlexGrid-row']//p[2]"
+		}
+	},
+	"ContinueToShippingButton": {
+		"web": {
+			"xpath": "//span[text()='Continue to shipping'or text()=' Procéder à la livraison ']/parent::button"
+		}
+	},
+	"ShippingAddressHeading": {
+		"web": {
+			"xpath": "//div[@id='AddressValidationWrapper']//h3/strong"
+		}
+	},
+	"CanadaTaxValue": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][div//span[text()='Tax']]//div[2]//div"
+		}
+	},
+	"CanadaTaxTitle": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][2]//span)[1]"
+		}
+	},
+	"CanadaSubtotalTitle": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][1]//span)[1]"
+		}
+	},
+	"CanadaShippingValue": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][div//span[text()='Shipping']]//div[2]//p"
+		}
+	},
+	"CanadaShippingTitle": {
+		"web": {
+			"xpath": "(//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][3]//span)[1]"
+		}
+	},
+	"CanadaSubtotalValue": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutOrderSummary-row tr-FlexGrid-row'][div//div[contains(text(),'Subtotal')]]//div[2]//span[@class='tr-Price']"
+		}
+	},
+	"CanadaOrderSummaryHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutOrderSummary-heading tr-FlexGrid-row']//div[1]//strong"
+		}
+	},
+	"CanadaOrderSummaryItemsQuantity": {
+		"web": {
+			"xpath": "//div[@class='tr-CheckoutOrderSummary-heading tr-FlexGrid-row']//div[2]//strong"
+		}
+	},
+	"CanadaOrderSummaryTotalHeading": {
+		"web": {
+			"xpath": "//span[contains(@class,'left')][span[@class='tr-CheckoutOrderSummary-totalLabel']]"
+		}
+	},
+	"CanadaOrderSummaryTotalValue": {
+		"web": {
+			"xpath": "//span[contains(@class,'right')][span[@class='tr-CheckoutOrderSummary-totalLabel']]//span[@class='tr-Price']"
+		}
+	},
+	"CanadaShippingHeading": {
+		"web": {
+			"xpath": "//div[@data-id='SHIPPING']//h2//strong"
+		}
+	},
+	"CanadaShippingAddressHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-BillingAddress']//h3/strong"
+		}
+	},
+	"CanadaAddressHeading": {
+		"web": {
+			"xpath": "//div[@id='AddressValidationWrapper']//span[@class='tr-AddressValidation-addresssearchinputlabeltext']"
+		}
+	},
+	"CanadaAddressOption1": {
+		"web": {
+			"xpath": "//label[@for='freeShipping']//div"
+		}
+	},
+	"ContinueWithOutSignIn": {
+		"web": {
+			"xpath": "//button[text()='Continue without sign-in']"
+		}
+	}
+}

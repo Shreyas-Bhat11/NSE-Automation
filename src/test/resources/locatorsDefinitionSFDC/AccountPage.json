@@ -1,0 +1,12 @@
+{
+	"EnterpriseTrailsTitleLink": {
+		"web": {
+			"xpath": "//div[@class='listHoverLinks']//span[contains(text(),'Enterprise Trials')]"
+		}
+	},
+	"TitleNameLink": {
+		"web": {
+			"xpath": "//h3[text()='Enterprise Trials']//following::table[1]//tr//th[text()='Trial Name']//following::tr[1]//th//a"
+		}
+	}
+}

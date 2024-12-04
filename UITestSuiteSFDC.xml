@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="false" verbose="10"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="com.tr.commons.extentListeners.ExtentListeners" />
+	</listeners>
+
+	<!--	SFDC Validations  -->
+	<test
+		name="TC001_E2E_USL_WLEdge_LawFirm_GoodPlan_Addons_AmexCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC001_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC002_E2E_USL_WLEdge_LawFirm_BetterPlan_Add2AddOns_Remove1AddOn_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC002_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC003_E2E_USL_Active_Trial_WLEdge_LawFirm_BestPlan_with_addOn_AmexCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC003_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC004_E2E_USL_PL_GeneralCounsel_BetterPlan_GoToCheckout_ExistingCustomer_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC004_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC005_E2E_USL_WL_Classic_General_Counsel_BetterPlan_without_addOn_Discover_card_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC005_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC006_E2E_USL_PL_GeneralCounsel_BetterPlan_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC006_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC007_E2E_USL_WLClassic_GeneralCounsel_GoodPlan_Without_addOn_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC007_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC010_E2E_USL_WLEdge_Government_GoodPlan_Alabama_NoAddOn_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC010_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC011_E2E_USL_WLEdge_GovernmentBetterPlan_Wyoming_State_AddAddOns_InPPPpage_AmexCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC011_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC018_E2E_USL_PL_GeneralCounsel_GoodPlan_AmexCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC018_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC021_E2E_USL_WLClassicLawFirm_BestPlan_AddAndRemoveAllAddOns_VisaCard_ExistingCustomerMultipleSAPAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC021_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC034_E2E_USL_PL_Government_GoodPlan_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC034_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC035_E2E_USL_PL_Government_BetterPlan_VisaCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC035_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC037_E2E_USL_PL_LawFirm_BetterPlan_BankAccount_SDFC_Validations">
+		<parameter name="TestCaseID" value="NS_TC037_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC038_E2E_USL_PL_LawFirm_BestPlan_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC038_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC039_E2E_USL_WLEdge_Government_Arizona_BestPlan_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC039_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC066_E2E_USL_WLEdge_Government_GoodPlan_New_Hampshire_AddOneAddOn_In_PPP_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC066_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC067_E2E_USL_WLEdge_Government_GoodPlan_PuertoRico_Add2_AddOns_InPPP_VISA_Card_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC067_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC068_E2E_USL_WLEdge_Government_BetterPlan_NewJersey_State_Without_AddOns_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC068_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC069_E2E_USL_WLEdge_Government_BetterPlan_Texas_State_Add1_AddOns_InPPP_Page_MasterCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC069_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC091_E2E_USL_PL_LawFirm_BestPlan_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC091_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC107_E2E_USL_WLEdge_Government_BetterPlan_NewJerseyState_WithoutAddons_BankAccount_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC107_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+	<test
+		name="TC108_E2E_USL_WLEdge_LawFirm_BestPlan_Add2AddOns_DiscoverCard_SFDC_Validations">
+		<parameter name="TestCaseID" value="NS_TC107_TestcaseName" />
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC_SFDCValidations" />
+		</classes>
+	</test>
+</suite>

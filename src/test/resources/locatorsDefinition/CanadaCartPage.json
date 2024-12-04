@@ -1,0 +1,207 @@
+{
+	"CartPageHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartContainer']//h1//strong"
+		}
+	},
+	"SingleProductFormat": {
+		"web": {
+			"xpath": "//div[@class='tr-CartProducts-productHeadingNewContainer']//div[contains(@class,'Format')]"
+		}
+	},
+	"SingleProductPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-CartProducts-itemNew tr-CartProducts-itemWrapperBlock']//span[@class='tr-Price']"
+		}
+	},
+	"SingleProductPurchaseOption": {
+		"web": {
+			"xpath": "//div[@class='tr-CartProducts-chargeTypeWithRemoveButtonWrapper']/div/div"
+		}
+	},
+	"CartIcon": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartContainer']//div[@class='tr-MiniCart-newCartIcon']"
+		}
+	},
+	"ProductSubTotalPriceCount": {
+		"web": {
+			"xpath": "//div[@class='tr-CartProducts-priceLabels']//div[contains(@class,'bold')]//span[@class='tr-Price']"
+		}
+	},
+	"ProductSubTotalPrice": {
+		"web": {
+			"xpath": "(//div[@class='tr-CartProducts-priceLabels']//div[contains(@class,'bold')]//span[@class='tr-Price'])[PLACEHOLDER]"
+		}
+	},
+	"ProductHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-CartProducts-productHeadingNewContainer']//strong"
+		}
+	},
+	"TotalPriceInOrderSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-FlexGrid-containerFluid tr-OrderSummaryCartCardNew-innerCard']//span[@class='tr-Price']"
+		}
+	},
+	"OrderSummaryHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderSummaryCartItemHeading-heading']//div[div[@class='tr-OrderSummaryCartItemHeading-items']]//preceding-sibling::div//strong"
+		}
+	},
+	"OrderSummaryItemQuantity": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderSummaryCartItemHeading-heading']//div[@class='tr-OrderSummaryCartItemHeading-items']//strong"
+		}
+	},
+	"OrderSummaryEstimationText": {
+		"web": {
+			"xpath": "//div[span[@class='tr-OrderSummaryCartCardNew-currency']]"
+		}
+	},
+	"OrderSummaryTaxText": {
+		"web": {
+			"xpath": "//div[contains(@class,'tr-OrderSummaryCartCardNew-cartSubLabel')]"
+		}
+	},
+	"OrderSummaryCheckoutButton": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderSummaryCartCardNew-checkOutButton']//span"
+		}
+	},
+	"PaginationLabel": {
+		"web": {
+			"xpath": "//div[@id='rows-per-page-label']"
+		}
+	},
+	"PaginationDropdownTextBox": {
+		"web": {
+			"xpath": "//span[@class='tr-Dropdown-headerText']"
+		}
+	},
+	"PaginationDropdownCount": {
+		"web": {
+			"xpath": "//ul[@class='tr-Dropdown-items']//span[@class='tr-Dropdown-itemInnerText']"
+		}
+	},
+	"PaginationDropdownOptions": {
+		"web": {
+			"xpath": "(//ul[@class='tr-Dropdown-items']//span[@class='tr-Dropdown-itemInnerText'])[PLACEHOLDER]"
+		}
+	},
+	"NumberOfProducts": {
+		"web": {
+			"xpath": "//input[@id='productQuantity']"
+		}
+	},
+	"ProductQuantities": {
+		"web": {
+			"xpath": "(//input[@id='productQuantity'])[PLACEHOLDER]"
+		}
+	},
+	"SignInPopupHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-LoginPopup-createAccount']//h2"
+		}
+	},
+	"SignInPopupBenefit1": {
+		"web": {
+			"xpath": "(//li[@class='tr-LoginPopup-accountBenefit']/p)[1]"
+		}
+	},
+	"SignInPopupBenefit2": {
+		"web": {
+			"xpath": "(//li[@class='tr-LoginPopup-accountBenefit']/p)[2]"
+		}
+	},
+	"SignInPopupBenefit3": {
+		"web": {
+			"xpath": "(//li[@class='tr-LoginPopup-accountBenefit']/p)[3]"
+		}
+	},
+	"SignInPopupBenefitIconCount": {
+		"web": {
+			"xpath": "//li[@class='tr-LoginPopup-accountBenefit']/i"
+		}
+	},
+	"SignInPopupCreateAcctButton": {
+		"web": {
+			"xpath": "//div[@class='tr-LoginPopup-createAccountButton']//span"
+		}
+	},
+	"SignInPopupGuestLoginButton": {
+		"web": {
+			"xpath": "//div[@class='tr-LoginPopup-guestLink']//a"
+		}
+	},
+	"SignInPopupSignInButton": {
+		"web": {
+			"xpath": "//div[@class='tr-LoginPopup-signInButton']//span"
+		}
+	},
+	"SignInPopupSignInHeading": {
+		"web": {
+			"xpath": "//h2[@class='tr-LoginPopup-signInHeading']"
+		}
+	},
+	"SignInPopupSignInText": {
+		"web": {
+			"xpath": "//div[@class='tr-LoginPopup-signInAccount']/p"
+		}
+	},
+	"AddButtonInQuantity": {
+		"web": {
+			"xpath": "//button[@title='Increase product quantity']"
+		}
+	},
+	"RemoveButtonInQuantity": {
+		"web": {
+			"xpath": "//button[@title='Decrease product quantity']"
+		}
+	},
+	"PromoCodeCollapsedText": {
+		"web": {
+			"xpath": "//button[@class='tr-ExpandableItemHeader is-collapsed']//h3/span"
+		}
+	},
+	"PromoCodeExpandedText": {
+		"web": {
+			"xpath": "//button[@class='tr-ExpandableItemHeader is-expanded']//h3/span"
+		}
+	},
+	"PromoCodeInputFieldHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-PromoCode-inputContainer']//span[@class='tr-FormTextControl-labelText']"
+		}
+	},
+	"PromoCodeInputField": {
+		"web": {
+			"xpath": "//div[@class='tr-PromoCode-inputContainer']//input[@id='promoCodeInput']"
+		}
+	},
+	"PromoCodeApplyButton": {
+		"web": {
+			"xpath": "//div[@class='tr-PromoCode-applyButton']//button"
+		}
+	},
+	"PromoCodeErrorMessage": {
+		"web": {
+			"xpath": "//div[@data-id='expandable-promocode']//span[@class='tr-AlertBanner-text tr-AlertBanner-text--colored']"
+		}
+	},
+	"PromoCodeSpinning": {
+		"web": {
+			"xpath": "//span[@class='tr-ButtonWithSpinner-spinnerIcon']"
+		}
+	},
+	"PromoCodeAppliedHeader": {
+		"web": {
+			"xpath": "//div[@data-id='expandable-promocode']//div[@class='tr-AppliedPromoCodeV2-appliedCodeHeader']"
+		}
+	},
+	"PromoCodeAppliedMessage": {
+		"web": {
+			"xpath": "//div[@data-id='expandable-promocode']//div[@class='tr-AppliedPromoCodeV2-promoCodeValue']"
+		}
+	}
+}

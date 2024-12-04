@@ -1,0 +1,27 @@
+{
+	"SearchBox": {
+		"web": {
+			"xpath": "//div[@class='magic-box-input']//input[@title='Search']"
+		}
+	},
+	"SearchButton": {
+		"web": {
+			"xpath": "//a[@class='CoveoSearchButton coveo-accessible-button']//span[@class='coveo-search-button']"
+		}
+	},
+	"BannerHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-Poster-content']//h1//b"
+		}
+	},
+	"BannerSubheading": {
+		"web": {
+			"xpath": "//div[@class='tr-Poster-content']//div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][h1//b]//following-sibling::div//div[contains(@class,'Rich')]"
+		}
+	},
+	"ShopNowButton": {
+		"web": {
+			"xpath": "//div[@class='tr-Poster-content']//div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][h1//b]//following-sibling::div//a//span"
+		}
+	}
+}

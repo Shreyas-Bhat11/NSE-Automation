@@ -1,0 +1,117 @@
+{
+	"QuoteID": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Proposal ID']//following::div[1]"
+		}
+	},
+	"ApprovalStage": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Approval Stage']//following::div[1]"
+		}
+	},
+	"SoldToAcctSSD": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Sold To Acct SSD']//following::div[1]"
+		}
+	},
+	"BillToAcctSSD": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Bill to Acct SSD']//following::div[1]"
+		}
+	},
+	"ShipToAcctSSD": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Ship to Acct SSD']//following::div[1]"
+		}
+	},
+	"PayerAcctSSD": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Payer Acct SSD']//following::div[1]"
+		}
+	},
+	"Account": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Account']//following::div[1]//a"
+		}
+	},
+	"SAPOrderStatus": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='SAP Order Status']//following::div[1]"
+		}
+	},
+	"Currency": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Currency']//following::div[1]"
+		}
+	},
+	"DigitallySignedDate": {
+		"web": {
+			"xpath": "//h2[text()='Quote/Proposal Detail']//following::table//tr//td[text()='Digitally Signed Date']//following::div[1]"
+		}
+	},
+	"QuoteType": {
+		"web": {
+			"xpath": "//h3[text()='Actions']//following::table//tr//td[text()='Quote Type']//following::div[1]"
+		}
+	},
+	"OrderConfirmationContact": {
+		"web": {
+			"xpath": "//h3[text()='Order Confirmation Contact']//following::table//tr//td[text()='Order Confirmation/Sold-To Contact']//following::div[1]"
+		}
+	},
+	"ApprovalSegment": {
+		"web": {
+			"xpath": "//h3[text()='Additional Information']//following::table//tr//td[text()='Approval Segment']//following::div[1]"
+		}
+	},
+	"PaymentOption": {
+		"web": {
+			"xpath": "//h3[text()='Payment Option']//following::table//tr//td[text()='Payment Option']//following::div[1]"
+		}
+	},
+	"PaymentStatus": {
+		"web": {
+			"xpath": "//h3[text()='Payment Option']//following::table//tr//td[text()='Payment Status']//following::div[1]"
+		}
+	},
+	"CardType": {
+		"web": {
+			"xpath": "//h3[text()='Credit Card Details']//following::table//tr//td[text()='Card Type']//following::div[1]"
+		}
+	},
+	"CardAuthorizationNumber": {
+		"web": {
+			"xpath": "//h3[text()='Credit Card Details']//following::table//tr//td[text()='Authorization Number']//following::div[1]"
+		}
+	},
+	"CardExpirationDate": {
+		"web": {
+			"xpath": "//h3[text()='Credit Card Details']//following::table//tr//td[text()='Card Expiration Date']//following::div[1]"
+		}
+	},
+	"DigitalQuoteType": {
+		"web": {
+			"xpath": "//h3[text()='Digital Information']//following::table//tr//td[text()='Digital Quote Type']//following::div[1]"
+		}
+	},
+	"OCCEmail": {
+		"web": {
+			"xpath": "//h3[text()='Digital Information']//following::table//tr//td[text()='Order Confirmation Contact Email']//following::div[1]/a"
+		}
+	},
+	"OCCName": {
+		"web": {
+			"xpath": "//h3[text()='Digital Information']//following::table//tr//td[text()='Order Confirmation Contact Name1']//following::div[1]"
+		}
+	},
+	"ConfigurationLink": {
+		"web": {
+			"xpath": "//a[@class='linklet']/span[text()='Configurations']"
+		}
+	},
+	"ConfigurationName": {
+		"web": {
+			"xpath": "(//h3[text()='Configurations']//following::table//tr[contains(@class,'dataRow')])[1]/th/a"
+		}
+	}
+}

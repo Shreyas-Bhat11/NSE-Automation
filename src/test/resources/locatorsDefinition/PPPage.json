@@ -1,0 +1,717 @@
+{
+	"WestlawEdgeHeader": {
+		"web": {
+			"xpath": "//div[text()='Westlaw Edge Plans and Pricing']"
+		}
+	},
+	"WestlawClassicHeader": {
+		"web": {
+			"xpath": "//div[text()='Westlaw Classic Plans and Pricing']"
+		}
+	},
+	"SectorHeading": {
+		"web": {
+			"xpath": "//div[contains(text(),'View plans by sector:')]"
+		}
+	},
+	"SectorDropdown": {
+		"web": {
+			"xpath": "//div[text()='View plans by sector:']/following-sibling::div"
+		}
+	},
+	"SectorDropdownOption": {
+		"web": {
+			"xpath": "(//li//div[@class='tr-FeatureInputWrapper-dropDownCustomLabel']//span[text()='PLACEHOLDER']) | (//div[@class='tr-Dropdown-listWrapper']//button[@id='PLACEHOLDER'])"
+		}
+	},
+	"SectorDropdownOptionCount": {
+		"web": {
+			"xpath": "//li//div[@class='tr-FeatureInputWrapper-dropDownCustomLabel']//span"
+		}
+	},
+	"SectorDropdownOptionText": {
+		"web": {
+			"xpath": "(//li//div[@class='tr-FeatureInputWrapper-dropDownCustomLabel']//span)[PLACEHOLDER]"
+		}
+	},
+	"SectorDropdownOptionAdditionalText": {
+		"web": {
+			"xpath": "(//li//div[@class='tr-FeatureInputWrapper-dropDownAdditionalText']//span)[PLACEHOLDER]"
+		}
+	},
+	"SelectedValueInSectorDropdown": {
+		"web": {
+			"xpath": "//span[@id='headerText']//div[@class='tr-FeatureInputWrapper-dropDownCustomLabel']//span"
+		}
+	},
+	"SelectGoodPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[1]//button"
+		}
+	},
+	"SelectBetterPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[2]//button"
+		}
+	},
+	"SelectBestPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[3]//button//span"
+		}
+	},
+	"SelectedGoodPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[1]//span[text()='Plan selected']"
+		}
+	},
+	"SelectedBetterPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[2]//span[text()='Plan selected']"
+		}
+	},
+	"SelectedBestPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[3]//span[text()='Plan selected']"
+		}
+	},
+	"FirstNumberOfAttorneysTextBox": {
+		"web": {
+			"xpath": "(//input[@id='Numberofattorneys:'])[1]"
+		}
+	},
+	"ErrorMessageForNumberOfAttorneys": {
+		"web": {
+			"xpath": "//div[@class='tr-AttorneyQuantityInput-inputErrorMsg']"
+		}
+	},
+	"OneYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[1]"
+		}
+	},
+	"TwoYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[2]"
+		}
+	},
+	"ThreeYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[3]"
+		}
+	},
+	"SelectedValueInJurisdictionDropdown": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureInputWrapper-jurisdictionDropdown']//span[@class='tr-Dropdown-headerText']"
+		}
+	},
+	"SelectSecondAddOnPrice": {
+		"web": {
+			"xpath": "(//div[@class='tr-ProductsAddonCard tr-ProductsAddonCard--selected']//span[@class='tr-Price'])[2]"
+		}
+	},
+	"SelectedSecondAddOn": {
+		"web": {
+			"xpath": "(//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-PlanSummary-textAddons'])[2]"
+		}
+	},
+	"SelectedSecondAddOnPrice": {
+		"web": {
+			"xpath": "(//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-Price'])[2]"
+		}
+	},
+	"JurisdictionDropdown": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanCompareChartJurisdictionSelector']//div[@class='tr-Dropdown-header']//span[@id='headerText']"
+		}
+	},
+	"JurisdictionDropdownCount": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanCompareChartJurisdictionSelector']//following-sibling::div//li"
+		}
+	},
+	"JurisdictionOptionByIndex": {
+		"web": {
+			"xpath": "(//div[@class='tr-PlanCompareChartJurisdictionSelector']//following-sibling::li)[PLACEHOLDER]"
+		}
+	},
+	"JurisdictionHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanCompareChartJurisdictionSelector']//div[span[@class='tr-PlanCompareChartJurisdictionSelector-label']]"
+		}
+	},
+	"JurisdictionDropdownOption": {
+		"web": {
+			"xpath": "//span[text()='PLACEHOLDER']//parent::button"
+		}
+	},
+	"PlanSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-CustomizePlan-header']//h3"
+		}
+	},
+	"PlanSummaryWithoutJurisdictionEdgeClassic": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-header tr-PlanSummary-header--custom']//h3"
+		}
+	},
+	"PlanSummaryHeadingWhenJurisdictionPresent": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-header tr-PlanSummary-header--custom']//h3"
+		}
+	},
+	"PlanSummarySubHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-CustomizePlan-header']//p"
+		}
+	},
+	"PlanSummaryPanelHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-planTitleWithPadding']"
+		}
+	},
+	"PlanSummaryPanelHeadingWEOrWC": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-customTitlePlanSummary']"
+		}
+	},
+	"PlanSummaryNumberOfAttorneysOrSeatsTextBox": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductQuantityInput-buttonsContainer']//input[contains(@id,'Numberof')]"
+		}
+	},
+	"PlanSummaryPlanDuration": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-dropdown']/div"
+		}
+	},
+	"PlanSummaryPlanDurationOption": {
+		"web": {
+			"xpath": "//button[contains(@class,'Dropdown-itemInnerButton') and @id='PLACEHOLDER']"
+		}
+	},
+	"PlanSummaryShortSummary": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanSummary-spacePlanSummary']"
+		}
+	},
+	"PlanSummaryNumberOfAttorneysText": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanSummary-spacePlanSummary']/strong[1]"
+		}
+	},
+	"PlanSummaryPlanDurationText": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanSummary-spacePlanSummary']/strong[2]"
+		}
+	},
+	"PlanSummaryNoOfSeatsHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-inputWrapper']//h3"
+		}
+	},
+	"PlanSummaryNoOfSeatsSubHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-inputWrapper']//h3//following-sibling::div/span"
+		}
+	},
+	"PlanSummaryDurationHeading": {
+		"web": {
+			"xpath": "//h3[contains(text(),'Plan duration')]"
+		}
+	},
+	"PlanSummaryDurationHeadingToolTip": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-dropdownWrapper']//h3//button"
+		}
+	},
+	"PlanSummaryDurationSubHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-dropdownWrapper']//h3//following-sibling::div/span"
+		}
+	},
+	"PlanSummaryJurisdiction": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-customTitlePlanSummary']/span"
+		}
+	},
+	"PlanPrice": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//span[@class='tr-Price' and not(ancestor::div[contains(@class, 'tr-FeaturePlanCompareChartFeatureStateHeader-strikeThroughPrice')])]"
+		}
+	},
+	"PlanSummaryPlanPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-priceSection']//span"
+		}
+	},
+	"SelectedNumberOfAddons": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-selectedAddons']"
+		}
+	},
+	"TotalPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-priceSection']//span[@class='tr-Price']"
+		}
+	},
+	"GoToCheckoutButton": {
+		"web": {
+			"xpath": "//*[text()='Go to checkout']/parent::button"
+		}
+	},
+	"SelectFirstAddOn": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard']//label"
+		}
+	},
+	"SelectedFirstAddOnName": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard tr-ProductsAddonCard--selected']//span[@class='tr-FormCheckboxControl-labelText']"
+		}
+	},
+	"SelectedFirstAddOnPrice": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard tr-ProductsAddonCard--selected']//span[@class='tr-Price']"
+		}
+	},
+	"AddOnNamePlanSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-PlanSummary-textAddons']"
+		}
+	},
+	"AddOnPricePlanSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-Price']"
+		}
+	},
+	"BrandName": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//span[@class='tr-FeaturePlanCompareChartFeatureStateHeader-brandNameSmall']"
+		}
+	},
+	"PlanCategoryName": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader-planCategoryBlack']"
+		}
+	},
+	"CloseCookies": {
+		"web": {
+			"xpath": "//div[@id='onetrust-close-btn-container']/button"
+		}
+	},
+	"RemoveAddonButtons": {
+		"web": {
+			"xpath": "//button[text()='Remove']"
+		}
+	},
+	"RemoveAddonButton": {
+		"web": {
+			"xpath": "(//button[text()='Remove'])[PLACEHOLDER]"
+		}
+	},
+	"RemoveFirstAddon": {
+		"web": {
+			"xpath": "(//button[text()='Remove'])[1]"
+		}
+	},
+	"RemovedAddOnPrice": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard']//span[@class='tr-Price']"
+		}
+	},
+	"NumberOfSeatsHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureInputWrapper-inputWrapper']//h3"
+		}
+	},
+	"NumberOfSeatsSubheading": {
+		"web": {
+			"xpath": "(//div[@class='tr-FeatureInputWrapper-inputWrapper']//span[@class='tr-FeatureInputWrapper-sublabel']) |(//div//span[@class='tr-FeatureWrapperFullWidth-sublabel'])"
+		}
+	},
+	"FirstNumberOfSeatsTextBox": {
+		"web": {
+			"xpath": "//div[@class='tr-AttorneyQuantityInput-wrapper']//input[@id='Numberofattorneys:' or @id='Numberofseats:']"
+		}
+	},
+	"ErrorMessageForNumberOfSeats": {
+		"web": {
+			"xpath": "//div[@class='tr-AttorneyQuantityInput-inputErrorMsg']"
+		}
+	},
+	"PracticalLawHeader": {
+		"web": {
+			"xpath": "//div[@class='tr-HeroBannerSegment-headings']//div[text()='Practical Law Plans and Pricing']"
+		}
+	},
+	"PlanDurationHeading": {
+		"web": {
+			"xpath": "//h2[@class='tr-PlanDurationHeader-segment']"
+		}
+	},
+	"PlanDurationSubHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-title']"
+		}
+	},
+	"MultiNationalInput": {
+		"web": {
+			"xpath": "//div[@class='tr-MultinationalToggle-redesignMultinational']//input"
+		}
+	},
+	"MultiNationalLabel": {
+		"web": {
+			"xpath": "//div[@class='tr-MultinationalToggle-redesignMultinational']//span"
+		}
+	},
+	"MultiNationalToolTip": {
+		"web": {
+			"xpath": "//div[@class='tr-MultinationalToggle-redesignMultinational']//button"
+		}
+	},
+	"MultiNationalToolTipMessage": {
+		"web": {
+			"xpath": "///div[@class='tr-Tooltip-body']"
+		}
+	},
+	"MultiNationalToolTipLink": {
+		"web": {
+			"xpath": "//div[@class='tr-Tooltip-body']//a[@class='tr-Anchor tr-MultinationalToggle-blueLink']"
+		}
+	},
+	"HeaderLogo": {
+		"web": {
+			"xpath": "//div[@class='bb-Header-barContainer']//span[@class='bb-logo-icn']"
+		}
+	},
+	"HeaderNavigationsCount": {
+		"web": {
+			"xpath": "//li[@class='bb-Navigation-item']//button/span[1]"
+		}
+	},
+	"HeaderNavigations": {
+		"web": {
+			"xpath": "(//li[@class='bb-Navigation-item']//button/span[1])[PLACEHOLDER]"
+		}
+	},
+	"HeaderSupportIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-support-icn']"
+		}
+	},
+	"HeaderSearchIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-search-icn']"
+		}
+	},
+	"HeaderAppsIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-apps-icn']"
+		}
+	},
+	"HeaderUserIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-user-icn']"
+		}
+	},
+	"FooterLogo": {
+		"web": {
+			"xpath": "//div[@class='tr-GlobalFooter-logoInnerRebranded']"
+		}
+	},
+	"GlobalFooterItemsCount": {
+		"web": {
+			"xpath": "//a[@class='tr-GlobalFooterItem-inner']"
+		}
+	},
+	"GlobalFooterItems": {
+		"web": {
+			"xpath": "(//a[@class='tr-GlobalFooterItem-inner'])[PLACEHOLDER]"
+		}
+	},
+	"PlanSummaryPanelHeadingWhenJurisdictionPresent": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-customTitlePlanSummary']"
+		}
+	},
+	"WLEdgeOrClassicLink": {
+		"web": {
+			"xpath": "//a[@class='tr-Anchor tr-PlanDetailsCustomHeading-termslink']"
+		}
+	},
+	"WLEdgeOrClassicLinkText": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDetailsCustomHeading-description tr-PlanDetailsCustomHeading-description--justifiedLeft tr-FlexGrid-row']//p"
+		}
+	},
+	"BannerHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-HeroBannerSegment-brand']"
+		}
+	},
+	"BannerTitle": {
+		"web": {
+			"xpath": "//div[@class='tr-HeroBannerSegment-customTitle']"
+		}
+	},
+	"BannerDescription": {
+		"web": {
+			"xpath": "//span[@class='tr-HeroBannerSegment-description']//p"
+		}
+	},
+	"DefaultPlanGenAIText": {
+		"web": {
+			"xpath": "//span[@class='tr-FeaturePlanCompareChartFeatureStateHeader-planStatusBadge']"
+		}
+	},
+	"MultinationalLabel": {
+		"web": {
+			"xpath": "//span[@class='tr-MultinationalToggle-multinationalLabel']"
+		}
+	},
+	"MultinationalToolTip": {
+		"web": {
+			"xpath": "//div[@class='tr-MultinationalToggle-tooltip']//button"
+		}
+	},
+	"MultinationalToolTipText": {
+		"web": {
+			"xpath": "(//div[@class='tr-Tooltip-body']//span)[1]"
+		}
+	},
+	"SelectedContractTerm": {
+		"web": {
+			"xpath": "//button[@class='tr-PlanDurationHeader-durationUnit tr-PlanDurationHeader-durationUnit--active']"
+		}
+	},
+	"PlanSummaryIncreaseButton": {
+		"web": {
+			"xpath": "//button[contains(@title,'Increase Number of ')]"
+		}
+	},
+	"PlanSummaryPlanDurationDropdownPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-dropdown']/div//span[@class='tr-Price']"
+		}
+	},
+	"PlanSummaryMaxAttorneyErrorMessage": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductQuantityInput-errorMessage']//div[@class='tr-Alert-content']"
+		}
+	},
+	"PlanComparisionTableColumnCount": {
+		"web": {
+			"xpath": "//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader']"
+		}
+	},
+	"PlanComparisionStrikeOffPrice": {
+		"web": {
+			"xpath": "(//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader-strikeThroughPrice'])[PLACEHOLDER]"
+		}
+	},
+	"PlanSummaryNegotiationHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-card']//div[@class='tr-Badges-badgesTitle']"
+		}
+	},
+	"PlanSummaryNegotiationText": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-card']//div[@class='tr-Badges-badgeDescription']"
+		}
+	},
+	"PlanSummaryNegotiationIcon": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-card']//div[@class='tr-Badges-badgesIcon']//img"
+		}
+	},
+	"CPITextMessage": {
+		"web": {
+			"xpath": "//div[@class='tr-ViewAndCustomizePlan-textMessageCpi']"
+		}
+	},
+	"FAQHeading": {
+		"web": {
+			"xpath": "//*[@class='tr-cmp-title__text']"
+		}
+	},
+	"FAQListCount": {
+		"web": {
+			"xpath": "//div[h3[@class='tr-cmp-title__text']]//following-sibling::div//li//h3/span"
+		}
+	},
+	"FAQQuestion": {
+		"web": {
+			"xpath": "(//div[h3[@class='tr-cmp-title__text']]//following-sibling::div//li//h3/span)[PLACEHOLDER]"
+		}
+	},
+	"FAQAnswer": {
+		"web": {
+			"xpath": "//div[h3[@class='tr-cmp-title__text']]//following-sibling::div//li//div[@class='tr-ExpandableItem-content is-expanded']//p"
+		}
+	},
+	"FooterNavigationsHeadingsCount": {
+		"web": {
+			"xpath": "//div[@class='tr-SiteFooterNavList-title']//strong"
+		}
+	},
+	"FooterNavigationsHeadings": {
+		"web": {
+			"xpath": "(//div[@class='tr-SiteFooterNavList-title']//strong)[PLACEHOLDER]"
+		}
+	},
+	"FooterNavigationsListCount": {
+		"web": {
+			"xpath": "(//div[@class='tr-SiteFooterNavList-title'][//strong])[PLACEHOLDER]//following-sibling::ul//a"
+		}
+	},
+	"FooterNavigationsListItems": {
+		"web": {
+			"xpath": "((//div[@class='tr-SiteFooterNavList-title'][//strong])[%s]//following-sibling::ul//a)[%s]"
+		}
+	},
+	"GenAIHeadingInTable": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanCompareChartFeatureDescriptionCell-featureName'][span[@class='tr-PlanCompareChartFeatureDescriptionCell-featureGenAi']]"
+		}
+	},
+	"GenAILabelInTable": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanCompareChartFeatureDescriptionCell-featureGenAi']"
+		}
+	},
+	"GenAIPlatformCategoryInTable": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanCompareChartFeatureDescriptionCell-featureName'][span[@class='tr-PlanCompareChartFeatureDescriptionCell-featureGenAi']]//following-sibling::ul//a"
+		}
+	},
+	"FeatureDescriptionModuleHeading": {
+		"web": {
+			"xpath": "//span[@class='tr-Heading tr-Heading--s tr-Heading--fwMedium tr-FeatureDescriptionModal-featureTitle']"
+		}
+	},
+	"FeatureDescriptionModuleSubheading": {
+		"web": {
+			"xpath": "//span[@class='tr-Heading tr-Heading--xxs tr-Heading--fwMedium tr-FeatureDescriptionModal-featureHeading']"
+		}
+	},
+	"FeatureDescriptionModuleContent": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureDescriptionModal-contentWrapper']"
+		}
+	},
+	"JurisdictionErrorMessage": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureInputWrapper-jurisdictionErrorMsg']"
+		}
+	},
+	"ViewPriceMatrix": {
+		"web": {
+			"xpath": "//button[@class='tr-FeatureQuantityInput-seeHowLink']"
+		}
+	},
+	"PriceMatrixHeading": {
+		"web": {
+			"xpath": "//h2[@class='tr-Heading tr-Heading--m tr-Heading--fwLight']"
+		}
+	},
+	"PriceMatrixSubHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-YearOverYearSavingsModal-header']/p"
+		}
+	},
+	"SubscriptionsAnnualPrices": {
+		"web": {
+			"xpath": "//div[@class='tr-YearOverYearSavingsModal-footer']/p"
+		}
+	},
+	"ClosePriceMatrixTable": {
+		"web": {
+			"xpath": "//span[@class='tr-Modal-buttonCross']"
+		}
+	},
+	"YearPlan": {
+		"web": {
+			"xpath": "//td[@class='tr-YearOverYearSavingsModal-yearCell']"
+		}
+	},
+	"YearPlanLiable": {
+		"web": {
+			"xpath": "//td[@class='tr-YearOverYearSavingsModal-yearCell'][PLACEHOLDER]//div"
+		}
+	},
+	"PlanNoOfYears": {
+		"web": {
+			"xpath": "//td[@class='tr-YearOverYearSavingsModal-yearCell'][PLACEHOLDER]/div[@class='tr-YearOverYearSavingsModal-yearNumber']"
+		}
+	},
+	"ErrorText": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureInputWrapper-jurisdictionErrorMsg']"
+		}
+	},
+	"JurisdictionErrorMessage": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureInputWrapper-jurisdictionErrorMsg']"
+		}
+	},
+	"MultinationalPlanCheckBox": {
+		"web": {
+			"xpath": "//input[@type='Checkbox']"
+		}
+	},
+	"MultinationalPlanCheckBoxLabel": {
+		"web": {
+			"xpath": "//span[@class='tr-MultinationalToggle-multinationalLabel']"
+		}
+	},
+	"planerHeader": {
+		"web": {
+			"xpath": "//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader-planCategoryBlack']"
+		}
+	},
+	"planerHeaderLiable": {
+		"web": {
+			"xpath": "(//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader-planCategoryBlack'])[PLACEHOLDER]"
+		}
+	},
+	"CoCounselCoreHeader": {
+		"web": {
+			"xpath": "//div[text()='CoCounsel Core Plans and Pricing']"
+		}
+	},
+	"Price1Year": {
+		"web": {
+			"xpath": "//div[@class='tr-PriceDetails-outer tr-Typography tr-Typography--s tr-Typography--center tr-Typography--bold']/span[@class='tr-Price']"
+		}
+	},
+	"PricePerYear": {
+		"web": {
+			"xpath": "//div[@class='tr-PriceDetails-strikeThroughPrice']"
+		}
+	},
+	"NumberOfAttorneysHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureWrapperFullWidth-inputWrapper']//h3"
+		}
+	},
+	"NumberOfAttorneysSubHeading": {
+		"web": {
+			"xpath": "//div//span[@class='tr-FeatureWrapperFullWidth-sublabel']"
+		}
+	},
+	"planeDetailHeading": {
+		"web": {
+			"xpath": "//div//h2[@class='tr-PlanDetails-header']"
+		}
+	},
+	"ShareLink": {
+		"web": {
+			"xpath": "//div//button[@class='tr-ShareQuote-button']"
+		}
+	},
+	"CopiedLink": {
+		"web": {
+			"xpath": "(//li[@class='tr-ShareQuoteMenu-submenuItem']//button)[1]"
+		}
+	}
+}

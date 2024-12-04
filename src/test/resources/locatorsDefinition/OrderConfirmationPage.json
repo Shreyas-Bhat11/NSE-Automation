@@ -1,0 +1,252 @@
+{
+	"OrderDetailsHeading": {
+		"web": {
+			"xpath": "//strong[text()='Order details']"
+		}
+	},
+	"OrderNumber": {
+		"web": {
+			"xpath": "//span[contains(text(),'Your order')]"
+		}
+	},
+	"SubTotal": {
+		"web": {
+			"xpath": "//div[text()='Subtotal']/following-sibling::span"
+		}
+	},
+	"EstimatedTax": {
+		"web": {
+			"xpath": "//div[text()='Est. tax*']/following-sibling::span"
+		}
+	},
+	"EstimatedTotal": {
+		"web": {
+			"xpath": "//*[text()='Est. Total']/parent::div/following-sibling::strong/span"
+		}
+	},
+	"EstimatedTotalMonthText": {
+		"web": {
+			"xpath": "//*[text()='Est. Total']/parent::div/following-sibling::strong/span[2]"
+		}
+	},
+	"TotalCurrency": {
+		"web": {
+			"xpath": "//*[text()='Est. Total']/following-sibling::span"
+		}
+	},
+	"SubTotalCurrency": {
+		"web": {
+			"xpath": "(//*[text()='Subtotal']/parent::div//span)[1]"
+		}
+	},
+	"OrderConfirmationMessage": {
+		"web": {
+			"xpath": "//span[contains(text(),'Thank you')]"
+		}
+	},
+	"ContactUsIcon": {
+		"web": {
+			"xpath": "//div[@class='tr-ContactUsHeader-header']//img"
+		}
+	},
+	"ContactUsHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-ContactUsHeader-header']//h3//strong"
+		}
+	},
+	"SpeakWithAgentHeading": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[1]//h3//strong"
+		}
+	},
+	"SpeakWithAgentBody": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[1]//div[1]"
+		}
+	},
+	"SpeakWithAgentIconText": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[1]//div[2]//a"
+		}
+	},
+	"SpeakWithAgentIcon": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[1]//div[2]//img"
+		}
+	},
+	"SendMessageHeading": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[2]//h3//strong"
+		}
+	},
+	"SendMessageBody": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[2]//div[1]"
+		}
+	},
+	"SendMessageIconText": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[2]//div[2]//a"
+		}
+	},
+	"SendMessageIcon": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[2]//div[2]//img"
+		}
+	},
+	"ChatOnlineHeading": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[3]//h3//strong"
+		}
+	},
+	"ChatOnlineBody": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[3]//div[1]"
+		}
+	},
+	"ChatOnlineIconText": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[3]//div[2]//button"
+		}
+	},
+	"ChatOnlineIcon": {
+		"web": {
+			"xpath": "(//div[@class='tr-ContactUsSection-content'])[3]//div[2]//img"
+		}
+	},
+	"DueDateText": {
+		"web": {
+			"xpath": "//p[@class='tr-OrderReviewTotalInfo-totalDueDateText']"
+		}
+	},
+	"DueDateToolTip": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewTotalInfo-totalDue tr-FlexGrid-row tr-FlexGrid-between-xs']//following-sibling::div//span[@id='tooltip-icon']"
+		}
+	},
+	"EstimatedTaxNote": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewTotalInfo-totalDue tr-FlexGrid-row tr-FlexGrid-between-xs']//following-sibling::div//span[contains(@class,'estimatedTaxNote')]"
+		}
+	},
+	"SubTotalHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewTotalInfo-legalPriceInfo tr-FlexGrid-row tr-FlexGrid-between-xs'][1]//div"
+		}
+	},
+	"EstimatedTaxHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewTotalInfo-legalPriceInfo tr-FlexGrid-row tr-FlexGrid-between-xs'][2]//div"
+		}
+	},
+	"EstimatedTotalHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-OrderReviewTotalInfo-totalDue tr-FlexGrid-row tr-FlexGrid-between-xs']//div//strong"
+		}
+	},
+	"OrderConfirmationNote": {
+		"web": {
+			"xpath": "//span[@class='tr-OrderConfirmation-normalText tr-Typography tr-Typography--xxs tr-Typography--left']"
+		}
+	},
+	"OrderConfirmationIcon": {
+		"web": {
+			"xpath": "//div[span[@class='tr-OrderConfirmation-normalText tr-Typography tr-Typography--xxs tr-Typography--left']]//preceding-sibling::div"
+		}
+	},
+	"WhatIsNextHeading": {
+		"web": {
+			"xpath": "//h4[contains(@class,'WhatHappensNextContainer-title')]"
+		}
+	},
+	"WhatIsNextList1": {
+		"web": {
+			"xpath": "//div[@class='tr-GuestUserWhatHappensNextContainer-list']//li[1]"
+		}
+	},
+	"WhatIsNextList2": {
+		"web": {
+			"xpath": "//div[@class='tr-GuestUserWhatHappensNextContainer-list']//li[2]"
+		}
+	},
+	"WhatIsNextList3": {
+		"web": {
+			"xpath": "//div[@class='tr-GuestUserWhatHappensNextContainer-list']//li[3]"
+		}
+	},
+	"WhatIsNextListExistingCustomer1": {
+		"web": {
+			"xpath": "//div[@class='tr-whathappensnext-list']//li[1]"
+		}
+	},
+	"WhatIsNextListExistingCustomer2": {
+		"web": {
+			"xpath": "//div[@class='tr-whathappensnext-list']//li[2]"
+		}
+	},
+	"EstimatedTotalCCC": {
+		"web": {
+			"xpath": "//*[text()='Est. Total']/parent::div/following-sibling::strong/span"
+		}
+	},
+	"EstimatedTaxCCC": {
+		"web": {
+			"xpath": "//div[text()='Est. tax*']/following-sibling::span"
+		}
+	},
+	"CanadaOrderReviewHeading": {
+		"web": {
+			"xpath": "//span[@class='tr-OrderReviewTotalInfoContainer-title tr-Typography tr-Typography--xs tr-Typography--left']/strong"
+		}
+	},
+	"CanadaSurveyLink": {
+		"web": {
+			"xpath": "//span[contains(@id,'CAStoreQualtrixSurveyLink')]/a"
+		}
+	},
+	"CanadaSurveyQuestions": {
+		"web": {
+			"xpath": "(//div[@class='QuestionText BorderColor'])[PLACEHOLDER]"
+		}
+	},
+	"CanadaSurveyLogo": {
+		"web": {
+			"xpath": "//body[@id='SurveyEngineBody']//div[@id='Logo']/img"
+		}
+	},
+	"CanadaSurveyAnswers": {
+		"web": {
+			"xpath": "((//ul[@class='ChoiceStructure'])[%s]//label[@class='SingleAnswer  ChoiceTextPositionLeft'])[%s]"
+		}
+	},
+	"CanadaSurveyQ3Answers": {
+		"web": {
+			"xpath": "(//label[contains(@id,'QID3-')]/span)[PLACEHOLDER]"
+		}
+	},
+	"CanadaSurveyQ3TextBox": {
+		"web": {
+			"xpath": "//input[@class='TextEntryBox InputText QR-QID3-2-TEXT QWatchTimer']"
+		}
+	},
+	"CanadaSurveyFeedbackQuestion": {
+		"web": {
+			"xpath": "//label[@class='QuestionText BorderColor']"
+		}
+	},
+	"CanadaSurveyFeedbackAnswer": {
+		"web": {
+			"xpath": "//legend[label[@class='QuestionText BorderColor']]//following-sibling::div//input"
+		}
+	},
+	"CanadaSurveyNextButton": {
+		"web": {
+			"xpath": "//input[@class='NextButton Button']"
+		}
+	},
+	"FeedBackSubmitMessage": {
+		"web": {
+			"xpath": "//div[@id='EndOfSurvey']"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"SignIn": {
+		"web": {
+			"xpath": "//div[@class='tr-Typography tr-Typography--center']//button[@type='button']"
+		}
+	},
+	"UserName": {
+		"web": {
+			"xpath": "//input[@id='Username']"
+		}
+	},
+	"Password": {
+		"web": {
+			"xpath": "//input[@id='Password']"
+		}
+	},
+	"LoginButton": {
+		"web": {
+			"xpath": "//button[@id='SignIn']"
+		}
+	},
+	"ContinueToPaymentButtonAT": {
+		"web": {
+			"xpath": "//span[text()='Continue to payment']/parent::button"
+		}
+	},
+	"ContinueWithOutSignIn": {
+		"web": {
+			"xpath": "//button[text()='Continue without sign-in']"
+		}
+	}
+}

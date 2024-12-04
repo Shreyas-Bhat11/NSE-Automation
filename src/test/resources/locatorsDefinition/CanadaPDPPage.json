@@ -1,0 +1,202 @@
+{
+	"ProductTitle": {
+		"web": {
+			"xpath": "//h1[@class='tr-Heading tr-Heading--m']//strong"
+		}
+	},
+	"ProductAuthor": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductDetailSummary-authors']"
+		}
+	},
+	"ProductFormat": {
+		"web": {
+			"xpath": "//label[@class='tr-ProductFormat-label']"
+		}
+	},
+	"ProductImage": {
+		"web": {
+			"xpath": "//img[@id='pdp-image']"
+		}
+	},
+	"ProductDetailsSectionQuantity": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductPricing-quantityLabel']//strong"
+		}
+	},
+	"ProductDetailsSectionDecQuantityButton": {
+		"web": {
+			"xpath": "//button[@title='Decrease product quantity']"
+		}
+	},
+	"ProductDetailsSectionIncQuantityButton": {
+		"web": {
+			"xpath": "//button[@title='Increase product quantity']"
+		}
+	},
+	"ProductDetailsSectionAvailabilityHeading": {
+		"web": {
+			"xpath": "(//div[@class='tr-ProductPricing-availabilityLabel']//div)[1]"
+		}
+	},
+	"ProductDetailsSectionPurchaseOptionHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductPricing-purchaseOptions tr-FlexGrid-row']//legend//span"
+		}
+	},
+	"ProductDetailsSectionPurchasingOption1": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductPricing-subscriptionPurchaseOption']//div[contains(@class,'subscriptionPurchaseOptionLabel')]"
+		}
+	},
+	"ProductDetailsSectionPurchasingCheckBoxText": {
+		"web": {
+			"xpath": "//label[@for='subscriptonOptionTnC']//span[@class='tr-FormCheckboxControl-labelText']//div"
+		}
+	},
+	"ProductDetailsSectionPurchasingOption1SubText": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductPricing-subscriptionPurchaseOption']//div[contains(@class,'subscriptionPurchaseOptionSubLabel')]"
+		}
+	},
+	"ProductDetailsSectionPurchasingOption2": {
+		"web": {
+			"xpath": "//label[span//div[@class='tr-ProductPricing-subscriptionPurchaseOption']//div[contains(@class,'subscriptionPurchaseOptionLabel')]]//following-sibling::label//span"
+		}
+	},
+	"ProductDetailsSectionPurchasingOption": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductPricing-purchaseOptions tr-FlexGrid-row']//fieldset/span"
+		}
+	},
+	"ProductDetailsSectionUpdateText": {
+		"web": {
+			"xpath": "(//div[@class='tr-ProductPricing-pricingLabel']/div)[2]"
+		}
+	},
+	"ProductDetailsSectionQuantityInput": {
+		"web": {
+			"xpath": "//input[@class='tr-ProductQuantityInput-counterDisplay']"
+		}
+	},
+	"ProductDetailsSectionAddToCart": {
+		"web": {
+			"xpath": "//div[@class='tr-AddToCartButton-addToCartBtn']//button"
+		}
+	},
+	"TOCIcon": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-iconPdf'])[1]"
+		}
+	},
+	"TOCText": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-body'])[1]/div"
+		}
+	},
+	"TOCSubText": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-body'])[1]/div/span"
+		}
+	},
+	"IndexIcon": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-iconPdf'])[2]"
+		}
+	},
+	"IndexText": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-body'])[2]/div"
+		}
+	},
+	"IndexSubText": {
+		"web": {
+			"xpath": "(//div[@class='tr-PdpDownloadButton-body'])[2]/div/span"
+		}
+	},
+	"CartPopup": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']"
+		}
+	},
+	"CartPopupViewCartButton": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//a[span[@class='tr-Button-body']]"
+		}
+	},
+	"CartPopupHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//h2[@class='tr-MiniCartDropdownHeader-miniCartHeading']"
+		}
+	},
+	"CartPopupProductHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//div[@class='tr-MiniCartDropdown-productsWrapper']//a//p"
+		}
+	},
+	"CartPopupProductQuantity": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//div[@class='tr-MiniCartDropdown-productsWrapper']//p[contains(@class,'quantity')]"
+		}
+	},
+	"CartPopupProductFormat": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//div[@class='tr-MiniCartDropdown-productsWrapper']//p[contains(@class,'format')]"
+		}
+	},
+	"CartPopupProductPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//p[span[@class='tr-Price']]"
+		}
+	},
+	"CartPopupClose": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//button[@class='tr-MiniCartDropdownHeader-closeButton']/span"
+		}
+	},
+	"CartPopupPurchaseOption": {
+		"web": {
+			"xpath": "//div[@class='tr-MiniCartDropdown']//p[span[@class='tr-Price']]//preceding-sibling::p[1]"
+		}
+	},
+	"CartIcon": {
+		"web": {
+			"xpath": "//button[@class='tr-SiteSubHeader-cartLogoWrapper']//div[@aria-label='Cart Icon']"
+		}
+	},
+	"BookFormatCount": {
+		"web": {
+			"xpath": "//span[@class='tr-FormRadioControl-labelText']//span[@class='tr-Price']"
+		}
+	},
+	"BookPrices": {
+		"web": {
+			"xpath": "(//span[@class='tr-FormRadioControl-labelText']//span[@class='tr-Price'])[PLACEHOLDER]"
+		}
+	},
+	"BookFormats": {
+		"web": {
+			"xpath": "(//div[strong//span[@class='tr-Price']]//preceding-sibling::div[1])[PLACEHOLDER]"
+		}
+	},
+	"ProductDetailsTab": {
+		"web": {
+			"xpath": "//li[@role='presentation']//a[@id='tab-Product details' or @id='tab-Détails du produit']"
+		}
+	},
+	"ProductDescription": {
+		"web": {
+			"xpath": "//div[@class='tr-ProductDetailsTab-productAttributes']/following-sibling::div//p"
+		}
+	},
+	"ProductDate": {
+		"web": {
+			"xpath": "//div[contains(text(),'Publication date') or contains(text(),'Date de publication')]//b"
+		}
+	},
+	"Publisher": {
+		"web": {
+			"xpath": "//div[contains(text(),'Publisher') or contains(text(),'Éditeur')]//b"
+		}
+	}
+}

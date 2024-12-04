@@ -1,0 +1,58 @@
+{
+	"$schema": "http://schemas.specsolutions.eu/specsync4azuredevops-config-latest.json",
+	"compatibilityVersion": "3.4.14",
+	"toolSettings": {
+		"licensePath": "specsync.lic",
+		"plugins": [
+			{
+				"packageId": "SpecSync.Plugin.TestNGTestSource",
+				"packageVersion": "1.0.0"
+			}
+		]
+	},
+	"remote": {
+		"projectUrl": "https://dev.azure.com/tr-commercial-eng/Commercial%20Engineering",
+		"user": "rlgazikihytnoaz5adaufvrdq2revqfrisahr6htoyohptoc3ljq",
+		"testSuite": {
+			"name": "NSE Test Suite",
+			"testPlanId": 954110
+		}
+	},
+	"local": {
+		"folder": "src/test/java",
+		"projectType": "folder"
+	},
+	"publishTestResults": {
+		"testResult": {
+			"fileFormat": "JUnitXml"
+		},
+		"treatInconclusiveAs": "NotExecuted",
+		"testRunSettings": {
+			"name": "GHA-UAT",
+			"runType": "automated",
+			"runComment": "test",
+			"testResultComment": ""
+		},
+		"testResultSettings": {
+			"comment": ""
+		}
+	},
+	"synchronization": {
+		"automation": {
+			"enabled": true,
+			"condition": "not @manual",
+			"testExecutionStrategy": "testSuiteBasedExecutionWithScenarioOutlineWrappers"
+		},
+		"areaPath": {
+			"mode": "setOnLink",
+			"value": "Commercial Engineering\\Customer Service and Support\\DUE"
+		},
+		"iterationPath": {
+			"mode": "setOnLink",
+			"value": "Commercial Engineering\\Customer Service and Support (CSS)\\DUE"
+		},
+		"fieldUpdates": {
+			"Description": "{local-test-case-description}{br}<pre>{local-test-case-container-source-file-path:HtmlEncode}:{br}{local-test-case-source:HtmlEncode}</pre>"
+		}
+	}
+}

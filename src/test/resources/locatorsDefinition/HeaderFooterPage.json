@@ -1,0 +1,137 @@
+{
+	"SectorDropdown": {
+		"web": {
+			"xpath": "//div[text()='View plans by sector:']/following-sibling::div"
+		}
+	},
+	"CloseCookies": {
+		"web": {
+			"xpath": "//div[@id='onetrust-close-btn-container']/button"
+		}
+	},
+	"HeaderLogo": {
+		"web": {
+			"xpath": "//div[@class='bb-Header-barContainer']//span[@class='bb-logo-icn']"
+		}
+	},
+	"HeaderNavigationsCount": {
+		"web": {
+			"xpath": "//li[@class='bb-Navigation-item']//button/span[1]"
+		}
+	},
+	"HeaderNavigations": {
+		"web": {
+			"xpath": "(//li[@class='bb-Navigation-item']//button/span[1])[PLACEHOLDER]"
+		}
+	},
+	"HeaderCartIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-cart-icn']"
+		}
+	},
+	"HeaderSearchIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-search-icn']"
+		}
+	},
+	"HeaderAppsIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-apps-icn']"
+		}
+	},
+	"HeaderUserIcon": {
+		"web": {
+			"xpath": "//span[@class='bb-user-icn']"
+		}
+	},
+	"FooterLogo": {
+		"web": {
+			"xpath": "//div[@class='tr-GlobalFooter-logoInnerRebranded']"
+		}
+	},
+	"GlobalFooterItemsCount": {
+		"web": {
+			"xpath": "//a[@class='tr-GlobalFooterItem-inner']"
+		}
+	},
+	"GlobalFooterItems": {
+		"web": {
+			"xpath": "(//a[@class='tr-GlobalFooterItem-inner'])[PLACEHOLDER]"
+		}
+	},
+	"BooksLink": {
+		"web": {
+			"xpath": "//span[@class='tr-CustomSiteHeaderMenu-linkText' and text()='Books']"
+		}
+	},
+	"BooksLinkMenuHeaderCount": {
+		"web": {
+			"xpath": "(//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//h2[@class='tr-SiteHeaderSection-title']"
+		}
+	},
+	"BooksLinkMenuHeader": {
+		"web": {
+			"xpath": "((//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//h2[@class='tr-SiteHeaderSection-title'])[PLACEHOLDER]"
+		}
+	},
+	"BooksLinkMenuSectionsCount": {
+		"web": {
+			"xpath": "(//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//div[@class='tr-SiteHeaderNavList']"
+		}
+	},
+	"BooksLinkMenuSectionsHeading": {
+		"web": {
+			"xpath": "((//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//div[@class='tr-SiteHeaderNavList']//preceding-sibling::h3)[PLACEHOLDER]"
+		}
+	},
+	"BooksLinkMenuFirstSectionsItems": {
+		"web": {
+			"xpath": "(((//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//div[@class='tr-SiteHeaderNavList'])[1]//a//span//span)[PLACEHOLDER]"
+		}
+	},
+	"BooksLinkMenuSecondSectionsItems": {
+		"web": {
+			"xpath": "(((//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//div[@class='tr-SiteHeaderNavList'])[2]//a//span//span)[PLACEHOLDER]"
+		}
+	},
+	"BooksLinkMenuThirdSectionsItems": {
+		"web": {
+			"xpath": "(((//div[@class='tr-CustomSiteHeaderMenu-children'])[1]//div[@class='tr-SiteHeaderNavList'])[3]//a//span//span)[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuHeader": {
+		"web": {
+			"xpath": "(//div[@class='tr-SiteFooterNavList-title']//strong)[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuFirstList": {
+		"web": {
+			"xpath": "((//ul[@class='tr-SiteFooterNavList-inner'])[1]//a)[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuSecondList": {
+		"web": {
+			"xpath": "((//ul[@class='tr-SiteFooterNavList-inner'])[2]//a)[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuThirdList": {
+		"web": {
+			"xpath": "((//ul[@class='tr-SiteFooterNavList-inner'])[3]//a)[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuForthList": {
+		"web": {
+			"xpath": "((//ul[@class='tr-SiteFooterNavList-inner'])[4]//a//span[2])[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuForthListIcons": {
+		"web": {
+			"xpath": "((//ul[@class='tr-SiteFooterNavList-inner'])[4]//a//span[1]//*[local-name()='svg'])[PLACEHOLDER]"
+		}
+	},
+	"FooterMenuForthListIconsCounts": {
+		"web": {
+			"xpath": "(//ul[@class='tr-SiteFooterNavList-inner'])[4]//a//span[1]//*[local-name()='svg']"
+		}
+	}
+}

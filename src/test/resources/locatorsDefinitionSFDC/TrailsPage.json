@@ -1,0 +1,37 @@
+{
+	"TrailStatus": {
+		"web": {
+			"xpath": "//h2[text()='Enterprise Trials Detail']//following::table//tr//td[text()='Trial Status']//following::div[1]"
+		}
+	},
+	"ConvertToSale": {
+		"web": {
+			"xpath": "//h2[text()='Enterprise Trials Detail']//following::table//tr//td[text()='Convert to Sale']//following::div[1]//img"
+		}
+	},
+	"IsLeadConverted": {
+		"web": {
+			"xpath": "//h3[text()='Digital']//following::table//tr//td[text()='Is Lead Converted']//following::div[1]//img"
+		}
+	},
+	"InstantEntitlement": {
+		"web": {
+			"xpath": "//h3[text()='Additional Information Section']//following::table//tr//td[text()='Instant Entitlement']//following::div[1]//img"
+		}
+	},
+	"EntitlementStatus": {
+		"web": {
+			"xpath": "//h3[text()='Trial Product Contacts']//following::table[1]//tr//th[text()='Trial Product Contact Number']//following::tr[1]//td[4]"
+		}
+	},
+	"EntitlementStatusDescription": {
+		"web": {
+			"xpath": "//h3[text()='Trial Product Contacts']//following::table[1]//tr//th[text()='Trial Product Contact Number']//following::tr[1]//td[6]"
+		}
+	},
+	"Leads": {
+		"web": {
+			"xpath": "//h3[text()='Digital']//following::table//tr//td[text()='Lead']//following::div[1]//a"
+		}
+	}
+}

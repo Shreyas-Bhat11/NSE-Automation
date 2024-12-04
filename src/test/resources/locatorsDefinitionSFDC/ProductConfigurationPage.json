@@ -1,0 +1,42 @@
+{
+	"ApprovalSegment": {
+		"web": {
+			"xpath": "//h3[text()='TR Approvals']//following::table//tr//td[text()='Approval Segment']//following::div[1]"
+		}
+	},
+	"Status": {
+		"web": {
+			"xpath": "//h3[text()='TR Approvals']//following::table//tr//td[text()='Status']//following::div[1]"
+		}
+	},
+	"TotalingGroups": {
+		"web": {
+			"xpath": "(//h3[text()='Totaling Groups']//following::table//tr[contains(@class,'dataRow')])[1]/th/a"
+		}
+	},
+	"CouponCodes": {
+		"web": {
+			"xpath": "//div[h3[text()='Parameters']]//following::div//table//tr//td[span[text()='Coupon Codes']]//following::div[1]"
+		}
+	},
+	"SummaryGroups": {
+		"web": {
+			"xpath": "(//h3[text()='Summary Groups']//following::table[1]//tr[contains(@class,'dataRow')])/th/a"
+		}
+	},
+	"SummaryGroupsNames": {
+		"web": {
+			"xpath": "((//h3[text()='Summary Groups']//following::table[1]//tr[contains(@class,'dataRow')])/th/a)[PLACEHOLDER]"
+		}
+	},
+	"LineItemIdLink": {
+		"web": {
+			"xpath": "(//h3[text()='Line Items']//following::table[1]//tr[contains(@class,'dataRow')])/th/a"
+		}
+	},
+	"LineItemIds": {
+		"web": {
+			"xpath": "((//h3[text()='Line Items']//following::table[1]//tr[contains(@class,'dataRow')])/th/a)[PLACEHOLDER]"
+		}
+	}
+}

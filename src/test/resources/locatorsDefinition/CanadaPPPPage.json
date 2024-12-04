@@ -1,0 +1,187 @@
+{
+	"SearchedProductHeaderListCount": {
+		"web": {
+			"xpath": "//div[@class='coveo-result-cell coveo-tr-cell-width ']//a[@data-helper='uri']"
+		}
+	},
+	"SearchedProductHeader": {
+		"web": {
+			"xpath": "(//div[@class='coveo-result-cell coveo-tr-cell-width ']//a[@data-helper='uri'])[PLACEHOLDER]"
+		}
+	},
+	"SearchedProductDate": {
+		"web": {
+			"xpath": "//div[a[@title=\"PLACEHOLDER\"]]//following-sibling::div//span[@class='CoveoFieldValue coveo-tr-result-date']//span"
+		}
+	},
+	"SearchedProductStartingPrice": {
+		"web": {
+			"xpath": "//div[a[@title=\"PLACEHOLDER\"]]//following-sibling::div//div[span[text()='Price' or text()='Prix ']]//following-sibling::span[@class='coveo-tr-canada-e-store-bold-font']"
+		}
+	},
+	"SearchedProductPublisher": {
+		"web": {
+			"xpath": "(//span[@class='CoveoFieldValue coveo-tr-result-publisher']//span)[PLACEHOLDER]"
+		}
+	},
+	"SearchedProductAuthor": {
+		"web": {
+			"xpath": "(//span[@class='CoveoFieldValue coveo-tr-result-author']//span)[PLACEHOLDER]"
+		}
+	},
+	"SearchedProductDescription": {
+		"web": {
+			"xpath": "(//div[@class='coveo-canada-store-shortDescription'])[PLACEHOLDER]"
+		}
+	},
+	"SearchBox": {
+		"web": {
+			"xpath": "//div[@class='magic-box-input']//input[@title='Search' or @title='Recherche']"
+		}
+	},
+	"SearchButton": {
+		"web": {
+			"xpath": "//a[@class='CoveoSearchButton coveo-accessible-button']//span[@class='coveo-search-button']"
+		}
+	},
+	"FilterHeading": {
+		"web": {
+			"xpath": "//div[@class='coveo-facet-filter-title']"
+		}
+	},
+	"SearchHeading": {
+		"web": {
+			"xpath": "//div[@class='tr-coveo-search-heading-and-sort-button']//h1"
+		}
+	},
+	"FilterJurisdictionHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Jurisdiction' or @title='Territoire de compétence']"
+		}
+	},
+	"FilterProductFormatHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Product Format' or @title='Format du produit']"
+		}
+	},
+	"FilterPracticeAreaHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Practice Area' or @title='Domaine de pratique']"
+		}
+	},
+	"FilterPurchaseOptionsHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Purchase Options' or @title=\"Options D'achat\"]"
+		}
+	},
+	"FilterPublisherHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Publisher' or @title='Éditeur']"
+		}
+	},
+	"FilterAuthorHeading": {
+		"web": {
+			"xpath": "//div[div[@class='coveo-facet-filter-title']]//following-sibling::div//span[@title='Author' or @title='Auteur']"
+		}
+	},
+	"FilterJurisdictionArrow": {
+		"web": {
+			"xpath": "//h2[span[@title='Jurisdiction'] or span[@title='Territoire de compétence']]//following-sibling::div//button[contains(@title,'Jurisdiction') or contains(@title,'Territoire de compétence')]"
+		}
+	},
+	"SortHeading": {
+		"web": {
+			"xpath": "//label[@class='coveo-tr-sort-by-text']"
+		}
+	},
+	"SortDropDownArrow": {
+		"web": {
+			"xpath": "//label[@class='coveo-tr-sort-by-text']//following-sibling::div//div[@class='coveo-tr-sort-dropdown-icon-wrapper']"
+		}
+	},
+	"SortDropDownArrowExpanded": {
+		"web": {
+			"xpath": "//button[@class='coveo-tr-sort-dropdown-button coveo-tr-sort-dropdown-button-opened']"
+		}
+	},
+	"SortOptionCount": {
+		"web": {
+			"xpath": "//div[@class='coveo-tr-sort-dropdown-option']//span[@class='coveo-accessible-button']"
+		}
+	},
+	"SortOptions": {
+		"web": {
+			"xpath": "(//div[@class='coveo-tr-sort-dropdown-option']//span[@class='coveo-accessible-button'])[PLACEHOLDER]"
+		}
+	},
+	"ProductCountInSearchResult": {
+		"web": {
+			"xpath": "//div[@class='coveo-list-layout CoveoResult']//img[@class='coveo-tr-image']"
+		}
+	},
+	"ProductImagesInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//img[@class='coveo-tr-image'])[PLACEHOLDER]"
+		}
+	},
+	"ProductTitleInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//a[@class='CoveoResultLink coveo-tr-font-weight'])[PLACEHOLDER]"
+		}
+	},
+	"ProductDateInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//span[@class='CoveoFieldValue coveo-tr-result-date'])[PLACEHOLDER]"
+		}
+	},
+	"ProductPublisherInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//span[@class='CoveoFieldValue coveo-tr-result-publisher'])[PLACEHOLDER]"
+		}
+	},
+	"ProductDescriptionInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//div[@class='coveo-canada-store-shortDescription'])[PLACEHOLDER]"
+		}
+	},
+	"ProductFormatHeadingInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//div[@class='coveo-canada-store-format__label coveo-tr-canada-e-store-bold-font'])[PLACEHOLDER]"
+		}
+	},
+	"ProductFormatValueInSearchResult": {
+		"web": {
+			"xpath": "(//div[@class='coveo-list-layout CoveoResult']//div[@class='coveo-tr-canada-e-store-formats']//span)[PLACEHOLDER]"
+		}
+	},
+	"Pagination": {
+		"web": {
+			"xpath": "//div[@class='CoveoPager']//li"
+		}
+	},
+	"PaginationNextButton": {
+		"web": {
+			"xpath": "//div[@class='CoveoPager']//li[contains(@class,'next')]//span"
+		}
+	},
+	"PaginationResultsPerPageHeading": {
+		"web": {
+			"xpath": "//div[@class='coveo-resultsPerPage-section']//span[@class='coveo-results-per-page-text']"
+		}
+	},
+	"PaginationProductsPerPage": {
+		"web": {
+			"xpath": "//div[@class='coveo-resultsPerPage-section']//ul[@class='coveo-results-per-page-list']//li"
+		}
+	},
+	"PaginationProductsPerPageCount": {
+		"web": {
+			"xpath": "(//div[@class='coveo-resultsPerPage-section']//ul[@class='coveo-results-per-page-list']//li)[PLACEHOLDER]"
+		}
+	},
+	"ProductUnavailableErrorMessage": {
+		"web": {
+			"xpath": "//div[@class='tr-ErrorComponent-errorHeading']//h1//span[text()='Product unavailable' or text()='Produit non disponible']"
+		}
+	}
+}

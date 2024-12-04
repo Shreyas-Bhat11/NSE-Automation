@@ -1,0 +1,197 @@
+{
+	"SearchBox": {
+		"web": {
+			"xpath": "//div[@class='searchBoxClearContainer']//input"
+		}
+	},
+	"SearchBoxButton": {
+		"web": {
+			"xpath": "//div[@class='headerSearchRightRoundedCorner']//input"
+		}
+	},
+	"QuoteIDLink": {
+		"web": {
+			"xpath": "//table//tr[contains(@class, 'dataRow')]//th/a[text()='PLACEHOLDER']"
+		}
+	},
+	"QuoteIdInProposalPage": {
+		"web": {
+			"xpath": "//h2[@class='pageDescription']"
+		}
+	},
+	"SelectBetterPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[2]//button"
+		}
+	},
+	"SelectBestPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[3]//button"
+		}
+	},
+	"SelectedGoodPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[1]//span[text()='Plan selected']"
+		}
+	},
+	"SelectedBetterPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[2]//span[text()='Plan selected']"
+		}
+	},
+	"SelectedBestPlan": {
+		"web": {
+			"xpath": "(//th[@class='tr-FeaturePlanCompareChart-featureStateColumnStickyHeader tr-DataGrid-column tr-DataGrid-column--text tr-DataGrid-cell tr-DataGrid-cell--header'])[3]//span[text()='Plan selected']"
+		}
+	},
+	"FirstNumberOfAttorneysTextBox": {
+		"web": {
+			"xpath": "(//input[@id='Numberofattorneys:'])[1]"
+		}
+	},
+	"ErrorMessageForNumberOfAttorneys": {
+		"web": {
+			"xpath": "//div[@class='tr-AttorneyQuantityInput-inputErrorMsg']"
+		}
+	},
+	"OneYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[1]"
+		}
+	},
+	"TwoYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[2]"
+		}
+	},
+	"ThreeYearPlan": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanDurationHeader-durationWrapper']/button[3]"
+		}
+	},
+	"JurisdictionDropdown": {
+		"web": {
+			"xpath": "//div[@aria-labelledby='jurisdictionSelectorLabel1 headerText']"
+		}
+	},
+	"PlanSummary": {
+		"web": {
+			"xpath": "//h3[text()='Your plan summary']"
+		}
+	},
+	"PlanSummaryNumberOfAttorneysOrSeatsTextBox": {
+		"web": {
+			"xpath": "(//input[contains(@id,'Numberof')])[2]"
+		}
+	},
+	"PlanSummaryPlanDuration": {
+		"web": {
+			"xpath": "//div[@class='tr-FeatureQuantityInput-dropdown']/div"
+		}
+	},
+	"PlanSummaryNumberOfAttorneysText": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanSummary-spacePlanSummary']/strong[1]"
+		}
+	},
+	"PlanSummaryPlanDurationText": {
+		"web": {
+			"xpath": "//span[@class='tr-PlanSummary-spacePlanSummary']/strong[2]"
+		}
+	},
+	"PlanSummaryJurisdiction": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-customTitlePlanSummary']/span"
+		}
+	},
+	"PlanPrice": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//span[@class='tr-Price' and not(ancestor::div[contains(@class, 'tr-FeaturePlanCompareChartFeatureStateHeader-strikeThroughPrice')])]"
+		}
+	},
+	"PlanSummaryPlanPrice": {
+		"web": {
+			"xpath": "//div[@data-testid='plan-summary-included']//span[1]"
+		}
+	},
+	"SelectedNumberOfAddons": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-selectedAddons']"
+		}
+	},
+	"TotalPrice": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-priceSection']//span[@class='tr-Price']"
+		}
+	},
+	"GoToCheckoutButton": {
+		"web": {
+			"xpath": "//*[text()='Go to checkout']/parent::button"
+		}
+	},
+	"SelectFirstAddOn": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard']//label"
+		}
+	},
+	"SelectedFirstAddOnName": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard tr-ProductsAddonCard--selected']//span[@class='tr-FormCheckboxControl-labelText']"
+		}
+	},
+	"SelectedFirstAddOnPrice": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard tr-ProductsAddonCard--selected']//span[@class='tr-Price']"
+		}
+	},
+	"AddOnNamePlanSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-PlanSummary-textAddons']"
+		}
+	},
+	"AddOnPricePlanSummary": {
+		"web": {
+			"xpath": "//div[@class='tr-PlanSummary-addonWrapper']//span[@class='tr-Price']"
+		}
+	},
+	"BrandName": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//span[@class='tr-FeaturePlanCompareChartFeatureStateHeader-brandNameSmall']"
+		}
+	},
+	"PlanCategoryName": {
+		"web": {
+			"xpath": "//span[text()='Plan selected']/ancestor::div[@class='tr-VerticalSpacing tr-VerticalSpacing--m'][2]//div[@class='tr-FeaturePlanCompareChartFeatureStateHeader-planCategoryBlack']"
+		}
+	},
+	"CloseCookies": {
+		"web": {
+			"xpath": "//div[@id='onetrust-close-btn-container']/button"
+		}
+	},
+	"RemoveSecondAddon": {
+		"web": {
+			"xpath": "(//button[text()='Remove'])[2]"
+		}
+	},
+	"RemovedAddOnPrice": {
+		"web": {
+			"xpath": "//li[@class='tr-ProductsAddonList-card']//div[@class='tr-ProductsAddonCard']//span[@class='tr-Price']"
+		}
+	},
+	"FirstNumberOfSeatsTextBox": {
+		"web": {
+			"xpath": "(//input[@id='Numberofseats:'])[1]"
+		}
+	},
+	"ErrorMessageForNumberOfSeats": {
+		"web": {
+			"xpath": "//div[@class='tr-AttorneyQuantityInput-inputErrorMsg']"
+		}
+	},
+	"PracticalLawHeader": {
+		"web": {
+			"xpath": "//div[@class='tr-HeroBannerSegment-headings']//div[text()='Practical Law Plans and Pricing']"
+		}
+	}
+}

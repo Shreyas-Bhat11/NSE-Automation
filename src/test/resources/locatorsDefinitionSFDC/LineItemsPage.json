@@ -1,0 +1,52 @@
+{
+	"ApprovalSegment": {
+		"web": {
+			"xpath": "//h2[text()='Line Item Detail']//following::table//tr//td[text()='Approval Segment']//following::div[1]"
+		}
+	},
+	"NumberOfAttorney": {
+		"web": {
+			"xpath": "//h2[text()='Line Item Detail']//following::table//tr//td[text()='Number of Attorneys']//following::div[1]"
+		}
+	},
+	"NetPrice": {
+		"web": {
+			"xpath": "//h3[text()='Pricing']//following::table//tr//td[text()='Net Price']//following::div[1]"
+		}
+	},
+	"Quantity": {
+		"web": {
+			"xpath": "//h2[text()='Line Item Detail']//following::table//tr//td[text()='Quantity']//following::div[1]"
+		}
+	},
+	"ContractTerm": {
+		"web": {
+			"xpath": "//h3[text()='MYR and Bridge']//following::table//tr//td[text()='Contract Term']//following::div[1]"
+		}
+	},
+	"ProductName": {
+		"web": {
+			"xpath": "//h3[text()='Product']//following::table//tr//td[text()='Product']//following::div[1]"
+		}
+	},
+	"LineStatus": {
+		"web": {
+			"xpath": "//h3[text()='Status']//following::table//tr//td[text()='Line Status']//following::div[1]"
+		}
+	},
+	"PricingStatus": {
+		"web": {
+			"xpath": "//h3[text()='Status']//following::table//tr//td[text()='Pricing Status']//following::div[1]"
+		}
+	},
+	"HasIncentives": {
+		"web": {
+			"xpath": "//h3[text()='Incentive']//following::div//table//tr//td//span[text()='Has Incentives']//following::div[1]//img"
+		}
+	},
+	"CouponCode": {
+		"web": {
+			"xpath": "//h3[text()='Incentive']//following::div//table//tr//td//span[text()='Coupon Code']//following::div[1]"
+		}
+	}
+}
