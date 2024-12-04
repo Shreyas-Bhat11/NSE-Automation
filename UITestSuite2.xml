@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="false" verbose="10"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="com.tr.commons.extentListeners.ExtentListeners" />
+	</listeners>
+	<test
+		name="TC001_E2E_USL_WLEdge_LawFirm_GoodPlan_Addons_AmexCard_UI_Validations">
+		<classes>
+			<class
+				name="com.NSE.ui.testcases.TC001_E2E_USL_WLEdge_LawFirm_GoodPlan_Addons_AmexCard"
+			/>
+		</classes>
+	</test>
+
+</suite>
