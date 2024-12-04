@@ -28,7 +28,7 @@ jobs:
         Start-Process -FilePath "$env:TEMP\chrome_installer.exe" -ArgumentList "/silent", "/install" -Wait
        
     - name: Build with Maven
-      run: mvn -B clean install test -PNSE -Denv=UAT -Dsheet=NS_Data.xlsx -DBROWSERSTACK_AUTOMATION=false
+      run: mvn -B clean install test -PNSE -Denv=UAT 
     - name: List files for debugging
       if: always()
       run: |
